@@ -1,0 +1,101 @@
+{
+  "as_of": "2026-03-17T09:00:00+09:00",
+  "site": {
+    "site_id": "HQ-B2",
+    "name": "본사 지하 2층 충전존",
+    "address": "경기도 성남시 분당구",
+    "operating_hours": "24시간",
+    "fee_policy": "사내 복지 — 무료",
+    "total_chargers": 8
+  },
+  "chargers": [
+    {
+      "charger_id": "CH-01",
+      "type": "FAST",
+      "power_kw": 100,
+      "zone": "A",
+      "status": "IN_USE",
+      "connector": "DC_COMBO",
+      "last_maintenance": "2025-12-10T09:00:00+09:00",
+      "note": null,
+      "current_reservation_id": "R-013"
+    },
+    {
+      "charger_id": "CH-02",
+      "type": "FAST",
+      "power_kw": 100,
+      "zone": "A",
+      "status": "AVAILABLE",
+      "connector": "DC_COMBO",
+      "last_maintenance": "2025-12-21T09:00:00+09:00",
+      "note": null,
+      "current_reservation_id": null
+    },
+    {
+      "charger_id": "CH-03",
+      "type": "SLOW",
+      "power_kw": 7,
+      "zone": "B",
+      "status": "IN_USE",
+      "connector": "AC_TYPE2",
+      "last_maintenance": "2026-02-24T09:00:00+09:00",
+      "note": null,
+      "current_reservation_id": "R-014"
+    },
+    {
+      "charger_id": "CH-04",
+      "type": "SLOW",
+      "power_kw": 7,
+      "zone": "B",
+      "status": "FAULT",
+      "connector": "AC_TYPE2",
+      "last_maintenance": "2026-01-17T09:00:00+09:00",
+      "note": "커넥터 잠금 불량 — 수리 접수 완료",
+      "current_reservation_id": null
+    },
+    {
+      "charger_id": "CH-05",
+      "type": "SLOW",
+      "power_kw": 7,
+      "zone": "B",
+      "status": "IN_USE",
+      "connector": "AC_TYPE2",
+      "last_maintenance": "2026-01-06T09:00:00+09:00",
+      "note": null,
+      "current_reservation_id": "R-015"
+    },
+    {
+      "charger_id": "CH-06",
+      "type": "SLOW",
+      "power_kw": 7,
+      "zone": "C",
+      "status": "AVAILABLE",
+      "connector": "AC_TYPE2",
+      "last_maintenance": "2026-03-01T09:00:00+09:00",
+      "note": null,
+      "current_reservation_id": null
+    },
+    {
+      "charger_id": "CH-07",
+      "type": "SLOW",
+      "power_kw": 7,
+      "zone": "C",
+      "status": "IN_USE",
+      "connector": "AC_TYPE2",
+      "last_maintenance": "2026-01-22T09:00:00+09:00",
+      "note": null,
+      "current_reservation_id": "R-011"
+    },
+    {
+      "charger_id": "CH-08",
+      "type": "SLOW",
+      "power_kw": 7,
+      "zone": "C",
+      "status": "MAINTENANCE",
+      "connector": "AC_TYPE2",
+      "last_maintenance": "2025-12-04T09:00:00+09:00",
+      "note": "정기 점검 (3/17 종일)",
+      "current_reservation_id": null
+    }
+  ]
+}

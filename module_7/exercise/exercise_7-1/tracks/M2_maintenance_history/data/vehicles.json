@@ -1,0 +1,553 @@
+{
+  "as_of": "2026-03-17T09:00:00+09:00",
+  "vehicles": [
+    {
+      "vehicle_id": "VH-0001",
+      "plate": "43서 1356",
+      "model": "EV9",
+      "powertrain": "EV",
+      "status": "IDLE",
+      "soc_pct": 43.7,
+      "fuel_pct": null,
+      "odometer_km": 63103,
+      "last_seen": "2026-03-17T08:55:00+09:00",
+      "location": {
+        "name": "서울시 서초구",
+        "lat": 37.48726,
+        "lng": 127.0271
+      },
+      "owner_dept": "모빌리티서비스팀",
+      "dtc_codes": []
+    },
+    {
+      "vehicle_id": "VH-0002",
+      "plate": "59나 4783",
+      "model": "IONIQ 5",
+      "powertrain": "EV",
+      "status": "IDLE",
+      "soc_pct": 8.6,
+      "fuel_pct": null,
+      "odometer_km": 99367,
+      "last_seen": "2026-03-17T08:55:00+09:00",
+      "location": {
+        "name": "화성시 남양읍",
+        "lat": 37.20065,
+        "lng": 126.82736
+      },
+      "owner_dept": "스마트팩토리팀",
+      "dtc_codes": []
+    },
+    {
+      "vehicle_id": "VH-0003",
+      "plate": "83다 8650",
+      "model": "포터 II",
+      "powertrain": "ICE",
+      "status": "OFFLINE",
+      "soc_pct": null,
+      "fuel_pct": 38.9,
+      "odometer_km": 102368,
+      "last_seen": "2026-03-17T07:25:00+09:00",
+      "location": {
+        "name": "의왕시 내손동",
+        "lat": 37.37277,
+        "lng": 126.96902
+      },
+      "owner_dept": "ITS운영팀",
+      "dtc_codes": []
+    },
+    {
+      "vehicle_id": "VH-0004",
+      "plate": "99머 9648",
+      "model": "EV6",
+      "powertrain": "EV",
+      "status": "DRIVING",
+      "soc_pct": 39.4,
+      "fuel_pct": null,
+      "odometer_km": 37338,
+      "last_seen": "2026-03-17T08:55:00+09:00",
+      "location": {
+        "name": "울산시 북구",
+        "lat": 35.58105,
+        "lng": 129.36671
+      },
+      "owner_dept": "커넥티드카개발팀",
+      "dtc_codes": []
+    },
+    {
+      "vehicle_id": "VH-0005",
+      "plate": "29나 7213",
+      "model": "포터 II 일렉트릭",
+      "powertrain": "EV",
+      "status": "DRIVING",
+      "soc_pct": 83.2,
+      "fuel_pct": null,
+      "odometer_km": 115770,
+      "last_seen": "2026-03-17T08:52:00+09:00",
+      "location": {
+        "name": "인천시 연수구",
+        "lat": 37.4098,
+        "lng": 126.68333
+      },
+      "owner_dept": "차량인프라팀",
+      "dtc_codes": []
+    },
+    {
+      "vehicle_id": "VH-0006",
+      "plate": "39버 1968",
+      "model": "스타리아",
+      "powertrain": "ICE",
+      "status": "IDLE",
+      "soc_pct": null,
+      "fuel_pct": 64.2,
+      "odometer_km": 66877,
+      "last_seen": "2026-03-17T08:54:00+09:00",
+      "location": {
+        "name": "용인시 기흥구",
+        "lat": 37.27846,
+        "lng": 127.11154
+      },
+      "owner_dept": "모빌리티서비스팀",
+      "dtc_codes": [
+        "B1318"
+      ]
+    },
+    {
+      "vehicle_id": "VH-0007",
+      "plate": "99버 6518",
+      "model": "IONIQ 6",
+      "powertrain": "EV",
+      "status": "DRIVING",
+      "soc_pct": 36.1,
+      "fuel_pct": null,
+      "odometer_km": 81454,
+      "last_seen": "2026-03-17T08:52:00+09:00",
+      "location": {
+        "name": "안양시 동안구",
+        "lat": 37.39677,
+        "lng": 126.96041
+      },
+      "owner_dept": "스마트팩토리팀",
+      "dtc_codes": []
+    },
+    {
+      "vehicle_id": "VH-0008",
+      "plate": "97버 2406",
+      "model": "코나 일렉트릭",
+      "powertrain": "EV",
+      "status": "MAINTENANCE",
+      "soc_pct": 55.0,
+      "fuel_pct": null,
+      "odometer_km": 83769,
+      "last_seen": "2026-03-17T08:56:00+09:00",
+      "location": {
+        "name": "수원시 영통구",
+        "lat": 37.25974,
+        "lng": 127.0521
+      },
+      "owner_dept": "ITS운영팀",
+      "dtc_codes": []
+    },
+    {
+      "vehicle_id": "VH-0009",
+      "plate": "15다 8983",
+      "model": "싼타페 하이브리드",
+      "powertrain": "HEV",
+      "status": "DRIVING",
+      "soc_pct": 62.4,
+      "fuel_pct": 40.1,
+      "odometer_km": 116416,
+      "last_seen": "2026-03-17T08:49:00+09:00",
+      "location": {
+        "name": "광명시 소하동",
+        "lat": 37.42716,
+        "lng": 126.88405
+      },
+      "owner_dept": "커넥티드카개발팀",
+      "dtc_codes": []
+    },
+    {
+      "vehicle_id": "VH-0010",
+      "plate": "48버 2759",
+      "model": "IONIQ 5",
+      "powertrain": "EV",
+      "status": "DRIVING",
+      "soc_pct": 26.2,
+      "fuel_pct": null,
+      "odometer_km": 50484,
+      "last_seen": "2026-03-17T08:49:00+09:00",
+      "location": {
+        "name": "성남시 분당구",
+        "lat": 37.38465,
+        "lng": 127.12318
+      },
+      "owner_dept": "차량인프라팀",
+      "dtc_codes": []
+    },
+    {
+      "vehicle_id": "VH-0011",
+      "plate": "77버 5038",
+      "model": "EV9",
+      "powertrain": "EV",
+      "status": "DRIVING",
+      "soc_pct": 66.6,
+      "fuel_pct": null,
+      "odometer_km": 142795,
+      "last_seen": "2026-03-17T08:58:00+09:00",
+      "location": {
+        "name": "서울시 서초구",
+        "lat": 37.4821,
+        "lng": 127.02677
+      },
+      "owner_dept": "모빌리티서비스팀",
+      "dtc_codes": []
+    },
+    {
+      "vehicle_id": "VH-0012",
+      "plate": "81머 9399",
+      "model": "쏘렌토 하이브리드",
+      "powertrain": "HEV",
+      "status": "IDLE",
+      "soc_pct": 46.5,
+      "fuel_pct": 29.9,
+      "odometer_km": 119038,
+      "last_seen": "2026-03-17T08:57:00+09:00",
+      "location": {
+        "name": "화성시 남양읍",
+        "lat": 37.19846,
+        "lng": 126.82404
+      },
+      "owner_dept": "스마트팩토리팀",
+      "dtc_codes": []
+    },
+    {
+      "vehicle_id": "VH-0013",
+      "plate": "71가 7392",
+      "model": "IONIQ 5",
+      "powertrain": "EV",
+      "status": "DRIVING",
+      "soc_pct": 15.0,
+      "fuel_pct": null,
+      "odometer_km": 4782,
+      "last_seen": "2026-03-17T08:57:00+09:00",
+      "location": {
+        "name": "의왕시 내손동",
+        "lat": 37.37767,
+        "lng": 126.97389
+      },
+      "owner_dept": "ITS운영팀",
+      "dtc_codes": []
+    },
+    {
+      "vehicle_id": "VH-0014",
+      "plate": "71나 3052",
+      "model": "EV6",
+      "powertrain": "EV",
+      "status": "IDLE",
+      "soc_pct": 66.8,
+      "fuel_pct": null,
+      "odometer_km": 121549,
+      "last_seen": "2026-03-17T08:48:00+09:00",
+      "location": {
+        "name": "울산시 북구",
+        "lat": 35.58219,
+        "lng": 129.35787
+      },
+      "owner_dept": "커넥티드카개발팀",
+      "dtc_codes": []
+    },
+    {
+      "vehicle_id": "VH-0015",
+      "plate": "39버 7155",
+      "model": "포터 II 일렉트릭",
+      "powertrain": "EV",
+      "status": "MAINTENANCE",
+      "soc_pct": 72.0,
+      "fuel_pct": null,
+      "odometer_km": 23351,
+      "last_seen": "2026-03-17T08:51:00+09:00",
+      "location": {
+        "name": "인천시 연수구",
+        "lat": 37.40525,
+        "lng": 126.67611
+      },
+      "owner_dept": "차량인프라팀",
+      "dtc_codes": [
+        "C1234"
+      ]
+    },
+    {
+      "vehicle_id": "VH-0016",
+      "plate": "42가 3238",
+      "model": "스타리아",
+      "powertrain": "ICE",
+      "status": "DRIVING",
+      "soc_pct": null,
+      "fuel_pct": 88.3,
+      "odometer_km": 121132,
+      "last_seen": "2026-03-17T08:53:00+09:00",
+      "location": {
+        "name": "용인시 기흥구",
+        "lat": 37.27868,
+        "lng": 127.11349
+      },
+      "owner_dept": "모빌리티서비스팀",
+      "dtc_codes": []
+    },
+    {
+      "vehicle_id": "VH-0017",
+      "plate": "71다 1959",
+      "model": "IONIQ 6",
+      "powertrain": "EV",
+      "status": "DRIVING",
+      "soc_pct": 29.0,
+      "fuel_pct": null,
+      "odometer_km": 111683,
+      "last_seen": "2026-03-17T08:52:00+09:00",
+      "location": {
+        "name": "안양시 동안구",
+        "lat": 37.39228,
+        "lng": 126.95842
+      },
+      "owner_dept": "스마트팩토리팀",
+      "dtc_codes": []
+    },
+    {
+      "vehicle_id": "VH-0018",
+      "plate": "43머 2339",
+      "model": "코나 일렉트릭",
+      "powertrain": "EV",
+      "status": "IDLE",
+      "soc_pct": 44.0,
+      "fuel_pct": null,
+      "odometer_km": 49321,
+      "last_seen": "2026-03-17T08:30:00+09:00",
+      "location": {
+        "name": "수원시 영통구",
+        "lat": 37.25823,
+        "lng": 127.04985
+      },
+      "owner_dept": "ITS운영팀",
+      "dtc_codes": []
+    },
+    {
+      "vehicle_id": "VH-0019",
+      "plate": "66서 4638",
+      "model": "싼타페 하이브리드",
+      "powertrain": "HEV",
+      "status": "IDLE",
+      "soc_pct": 57.8,
+      "fuel_pct": 34.1,
+      "odometer_km": 69814,
+      "last_seen": "2026-03-17T08:50:00+09:00",
+      "location": {
+        "name": "광명시 소하동",
+        "lat": 37.42541,
+        "lng": 126.88077
+      },
+      "owner_dept": "커넥티드카개발팀",
+      "dtc_codes": []
+    },
+    {
+      "vehicle_id": "VH-0020",
+      "plate": "64가 8454",
+      "model": "IONIQ 5",
+      "powertrain": "EV",
+      "status": "DRIVING",
+      "soc_pct": 58.0,
+      "fuel_pct": null,
+      "odometer_km": 47234,
+      "last_seen": "2026-03-17T08:13:00+09:00",
+      "location": {
+        "name": "성남시 분당구",
+        "lat": 37.37795,
+        "lng": 127.11845
+      },
+      "owner_dept": "차량인프라팀",
+      "dtc_codes": []
+    },
+    {
+      "vehicle_id": "VH-0021",
+      "plate": "46나 1715",
+      "model": "EV9",
+      "powertrain": "EV",
+      "status": "IDLE",
+      "soc_pct": 33.0,
+      "fuel_pct": null,
+      "odometer_km": 67712,
+      "last_seen": "2026-03-17T05:30:00+09:00",
+      "location": {
+        "name": "서울시 서초구",
+        "lat": 37.48407,
+        "lng": 127.02854
+      },
+      "owner_dept": "모빌리티서비스팀",
+      "dtc_codes": [
+        "P0A80"
+      ]
+    },
+    {
+      "vehicle_id": "VH-0022",
+      "plate": "69나 2367",
+      "model": "쏘렌토 하이브리드",
+      "powertrain": "HEV",
+      "status": "DRIVING",
+      "soc_pct": 41.2,
+      "fuel_pct": 23.5,
+      "odometer_km": 58338,
+      "last_seen": "2026-03-17T08:48:00+09:00",
+      "location": {
+        "name": "화성시 남양읍",
+        "lat": 37.19599,
+        "lng": 126.83346
+      },
+      "owner_dept": "스마트팩토리팀",
+      "dtc_codes": []
+    },
+    {
+      "vehicle_id": "VH-0023",
+      "plate": "63다 9877",
+      "model": "포터 II",
+      "powertrain": "ICE",
+      "status": "DRIVING",
+      "soc_pct": null,
+      "fuel_pct": 36.1,
+      "odometer_km": 93115,
+      "last_seen": "2026-03-17T08:56:00+09:00",
+      "location": {
+        "name": "의왕시 내손동",
+        "lat": 37.37266,
+        "lng": 126.97012
+      },
+      "owner_dept": "ITS운영팀",
+      "dtc_codes": []
+    },
+    {
+      "vehicle_id": "VH-0024",
+      "plate": "60라 8071",
+      "model": "EV6",
+      "powertrain": "EV",
+      "status": "IDLE",
+      "soc_pct": 4.3,
+      "fuel_pct": null,
+      "odometer_km": 28618,
+      "last_seen": "2026-03-17T08:57:00+09:00",
+      "location": {
+        "name": "울산시 북구",
+        "lat": 35.58556,
+        "lng": 129.3608
+      },
+      "owner_dept": "커넥티드카개발팀",
+      "dtc_codes": [
+        "P0AFA"
+      ]
+    },
+    {
+      "vehicle_id": "VH-0025",
+      "plate": "50서 3434",
+      "model": "포터 II 일렉트릭",
+      "powertrain": "EV",
+      "status": "DRIVING",
+      "soc_pct": 26.2,
+      "fuel_pct": null,
+      "odometer_km": 104546,
+      "last_seen": "2026-03-17T08:54:00+09:00",
+      "location": {
+        "name": "인천시 연수구",
+        "lat": 37.40652,
+        "lng": 126.67303
+      },
+      "owner_dept": "차량인프라팀",
+      "dtc_codes": []
+    },
+    {
+      "vehicle_id": "VH-0026",
+      "plate": "73머 1977",
+      "model": "IONIQ 5",
+      "powertrain": "EV",
+      "status": "DRIVING",
+      "soc_pct": 14.9,
+      "fuel_pct": null,
+      "odometer_km": 53303,
+      "last_seen": "2026-03-17T08:59:00+09:00",
+      "location": {
+        "name": "용인시 기흥구",
+        "lat": 37.27461,
+        "lng": 127.11449
+      },
+      "owner_dept": "모빌리티서비스팀",
+      "dtc_codes": []
+    },
+    {
+      "vehicle_id": "VH-0027",
+      "plate": "71서 5472",
+      "model": "IONIQ 6",
+      "powertrain": "EV",
+      "status": "IDLE",
+      "soc_pct": 41.0,
+      "fuel_pct": null,
+      "odometer_km": 51051,
+      "last_seen": "2026-03-17T08:52:00+09:00",
+      "location": {
+        "name": "안양시 동안구",
+        "lat": 37.38674,
+        "lng": 126.96168
+      },
+      "owner_dept": "스마트팩토리팀",
+      "dtc_codes": []
+    },
+    {
+      "vehicle_id": "VH-0028",
+      "plate": "88나 3578",
+      "model": "코나 일렉트릭",
+      "powertrain": "EV",
+      "status": "DRIVING",
+      "soc_pct": 71.4,
+      "fuel_pct": null,
+      "odometer_km": 3756,
+      "last_seen": "2026-03-17T08:51:00+09:00",
+      "location": {
+        "name": "수원시 영통구",
+        "lat": 37.25905,
+        "lng": 127.04532
+      },
+      "owner_dept": "ITS운영팀",
+      "dtc_codes": []
+    },
+    {
+      "vehicle_id": "VH-0029",
+      "plate": "10나 1437",
+      "model": "IONIQ 5",
+      "powertrain": "EV",
+      "status": "DRIVING",
+      "soc_pct": 11.2,
+      "fuel_pct": null,
+      "odometer_km": 25955,
+      "last_seen": "2026-03-17T08:58:00+09:00",
+      "location": {
+        "name": "광명시 소하동",
+        "lat": 37.43225,
+        "lng": 126.88663
+      },
+      "owner_dept": "커넥티드카개발팀",
+      "dtc_codes": []
+    },
+    {
+      "vehicle_id": "VH-0030",
+      "plate": "41라 3015",
+      "model": "IONIQ 5",
+      "powertrain": "EV",
+      "status": "DRIVING",
+      "soc_pct": 38.2,
+      "fuel_pct": null,
+      "odometer_km": 13679,
+      "last_seen": "2026-03-17T08:49:00+09:00",
+      "location": {
+        "name": "성남시 분당구",
+        "lat": 37.38809,
+        "lng": 127.11801
+      },
+      "owner_dept": "차량인프라팀",
+      "dtc_codes": []
+    }
+  ]
+}

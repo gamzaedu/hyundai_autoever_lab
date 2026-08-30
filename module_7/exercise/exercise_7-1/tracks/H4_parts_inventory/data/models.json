@@ -1,0 +1,77 @@
+{
+  "as_of": "2026-03-17T09:00:00+09:00",
+  "models": [
+    {
+      "model_id": "MD-01",
+      "name": "IONIQ 5",
+      "powertrain": "EV",
+      "year_from": 2021
+    },
+    {
+      "model_id": "MD-02",
+      "name": "IONIQ 6",
+      "powertrain": "EV",
+      "year_from": 2022
+    },
+    {
+      "model_id": "MD-03",
+      "name": "EV6",
+      "powertrain": "EV",
+      "year_from": 2021
+    },
+    {
+      "model_id": "MD-04",
+      "name": "EV9",
+      "powertrain": "EV",
+      "year_from": 2023
+    },
+    {
+      "model_id": "MD-05",
+      "name": "코나 일렉트릭",
+      "powertrain": "EV",
+      "year_from": 2018
+    },
+    {
+      "model_id": "MD-06",
+      "name": "포터 II 일렉트릭",
+      "powertrain": "EV",
+      "year_from": 2020
+    },
+    {
+      "model_id": "MD-07",
+      "name": "싼타페 하이브리드",
+      "powertrain": "HEV",
+      "year_from": 2020
+    },
+    {
+      "model_id": "MD-08",
+      "name": "쏘렌토 하이브리드",
+      "powertrain": "HEV",
+      "year_from": 2020
+    },
+    {
+      "model_id": "MD-09",
+      "name": "스타리아",
+      "powertrain": "ICE",
+      "year_from": 2021
+    },
+    {
+      "model_id": "MD-10",
+      "name": "포터 II",
+      "powertrain": "ICE",
+      "year_from": 2019
+    },
+    {
+      "model_id": "MD-11",
+      "name": "아반떼",
+      "powertrain": "ICE",
+      "year_from": 2020
+    },
+    {
+      "model_id": "MD-12",
+      "name": "그랜저",
+      "powertrain": "ICE",
+      "year_from": 2022
+    }
+  ]
+}

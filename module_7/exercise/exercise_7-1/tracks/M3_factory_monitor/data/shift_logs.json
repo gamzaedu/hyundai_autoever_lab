@@ -1,0 +1,2577 @@
+{
+  "as_of": "2026-03-17T09:00:00+09:00",
+  "logs": [
+    {
+      "log_id": "SL-0001",
+      "machine_id": "EQ-01",
+      "date": "2026-03-10",
+      "shift": "A",
+      "shift_start": "2026-03-10T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 39,
+      "produced_qty": 1637,
+      "defect_qty": 6,
+      "stop_reasons": [
+        "금형 교체"
+      ],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0002",
+      "machine_id": "EQ-01",
+      "date": "2026-03-10",
+      "shift": "B",
+      "shift_start": "2026-03-10T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 32,
+      "produced_qty": 1729,
+      "defect_qty": 17,
+      "stop_reasons": [
+        "전원 이상",
+        "예방 정비",
+        "품질 이상 조치"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0003",
+      "machine_id": "EQ-02",
+      "date": "2026-03-10",
+      "shift": "A",
+      "shift_start": "2026-03-10T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 0,
+      "produced_qty": 2254,
+      "defect_qty": 8,
+      "stop_reasons": [],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0004",
+      "machine_id": "EQ-02",
+      "date": "2026-03-10",
+      "shift": "B",
+      "shift_start": "2026-03-10T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 55,
+      "produced_qty": 1607,
+      "defect_qty": 21,
+      "stop_reasons": [
+        "자재 대기"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0005",
+      "machine_id": "EQ-03",
+      "date": "2026-03-10",
+      "shift": "A",
+      "shift_start": "2026-03-10T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 0,
+      "produced_qty": 976,
+      "defect_qty": 2,
+      "stop_reasons": [],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0006",
+      "machine_id": "EQ-03",
+      "date": "2026-03-10",
+      "shift": "B",
+      "shift_start": "2026-03-10T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 10,
+      "produced_qty": 969,
+      "defect_qty": 13,
+      "stop_reasons": [],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0007",
+      "machine_id": "EQ-04",
+      "date": "2026-03-10",
+      "shift": "A",
+      "shift_start": "2026-03-10T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 66,
+      "produced_qty": 870,
+      "defect_qty": 4,
+      "stop_reasons": [
+        "전원 이상"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0008",
+      "machine_id": "EQ-04",
+      "date": "2026-03-10",
+      "shift": "B",
+      "shift_start": "2026-03-10T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 29,
+      "produced_qty": 832,
+      "defect_qty": 22,
+      "stop_reasons": [
+        "품질 이상 조치",
+        "금형 교체"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0009",
+      "machine_id": "EQ-05",
+      "date": "2026-03-10",
+      "shift": "A",
+      "shift_start": "2026-03-10T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 100,
+      "produced_qty": 216,
+      "defect_qty": 1,
+      "stop_reasons": [
+        "예방 정비",
+        "품질 이상 조치"
+      ],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0010",
+      "machine_id": "EQ-05",
+      "date": "2026-03-10",
+      "shift": "B",
+      "shift_start": "2026-03-10T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 63,
+      "produced_qty": 234,
+      "defect_qty": 6,
+      "stop_reasons": [
+        "자재 대기"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0011",
+      "machine_id": "EQ-06",
+      "date": "2026-03-10",
+      "shift": "A",
+      "shift_start": "2026-03-10T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 77,
+      "produced_qty": 189,
+      "defect_qty": 4,
+      "stop_reasons": [
+        "금형 교체",
+        "자재 대기"
+      ],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0012",
+      "machine_id": "EQ-06",
+      "date": "2026-03-10",
+      "shift": "B",
+      "shift_start": "2026-03-10T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 61,
+      "produced_qty": 221,
+      "defect_qty": 6,
+      "stop_reasons": [
+        "예방 정비"
+      ],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0013",
+      "machine_id": "EQ-07",
+      "date": "2026-03-10",
+      "shift": "A",
+      "shift_start": "2026-03-10T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 9,
+      "produced_qty": 575,
+      "defect_qty": 1,
+      "stop_reasons": [],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0014",
+      "machine_id": "EQ-07",
+      "date": "2026-03-10",
+      "shift": "B",
+      "shift_start": "2026-03-10T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 49,
+      "produced_qty": 482,
+      "defect_qty": 4,
+      "stop_reasons": [
+        "작업자 교대",
+        "예방 정비",
+        "품질 이상 조치"
+      ],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0015",
+      "machine_id": "EQ-08",
+      "date": "2026-03-10",
+      "shift": "A",
+      "shift_start": "2026-03-10T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 37,
+      "produced_qty": 536,
+      "defect_qty": 14,
+      "stop_reasons": [
+        "자재 대기",
+        "설비 알람",
+        "작업자 교대"
+      ],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0016",
+      "machine_id": "EQ-08",
+      "date": "2026-03-10",
+      "shift": "B",
+      "shift_start": "2026-03-10T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 47,
+      "produced_qty": 580,
+      "defect_qty": 7,
+      "stop_reasons": [
+        "자재 대기",
+        "예방 정비"
+      ],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0017",
+      "machine_id": "EQ-09",
+      "date": "2026-03-10",
+      "shift": "A",
+      "shift_start": "2026-03-10T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 30,
+      "produced_qty": 1221,
+      "defect_qty": 11,
+      "stop_reasons": [
+        "품질 이상 조치",
+        "작업자 교대"
+      ],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0018",
+      "machine_id": "EQ-09",
+      "date": "2026-03-10",
+      "shift": "B",
+      "shift_start": "2026-03-10T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 2,
+      "produced_qty": null,
+      "defect_qty": null,
+      "stop_reasons": [],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0019",
+      "machine_id": "EQ-10",
+      "date": "2026-03-10",
+      "shift": "A",
+      "shift_start": "2026-03-10T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 7,
+      "produced_qty": 1250,
+      "defect_qty": 16,
+      "stop_reasons": [],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0020",
+      "machine_id": "EQ-10",
+      "date": "2026-03-10",
+      "shift": "B",
+      "shift_start": "2026-03-10T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 24,
+      "produced_qty": 1300,
+      "defect_qty": 2,
+      "stop_reasons": [
+        "전원 이상",
+        "작업자 교대",
+        "예방 정비"
+      ],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0021",
+      "machine_id": "EQ-11",
+      "date": "2026-03-10",
+      "shift": "A",
+      "shift_start": "2026-03-10T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 16,
+      "produced_qty": 2815,
+      "defect_qty": 43,
+      "stop_reasons": [
+        "품질 이상 조치",
+        "전원 이상"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0022",
+      "machine_id": "EQ-11",
+      "date": "2026-03-10",
+      "shift": "B",
+      "shift_start": "2026-03-10T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 0,
+      "produced_qty": 2570,
+      "defect_qty": 5,
+      "stop_reasons": [],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0023",
+      "machine_id": "EQ-12",
+      "date": "2026-03-10",
+      "shift": "A",
+      "shift_start": "2026-03-10T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 0,
+      "produced_qty": 2366,
+      "defect_qty": 32,
+      "stop_reasons": [],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0024",
+      "machine_id": "EQ-12",
+      "date": "2026-03-10",
+      "shift": "B",
+      "shift_start": "2026-03-10T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 27,
+      "produced_qty": 2547,
+      "defect_qty": 53,
+      "stop_reasons": [
+        "품질 이상 조치"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0025",
+      "machine_id": "EQ-01",
+      "date": "2026-03-11",
+      "shift": "A",
+      "shift_start": "2026-03-11T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 28,
+      "produced_qty": 1632,
+      "defect_qty": 4,
+      "stop_reasons": [
+        "예방 정비",
+        "금형 교체"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0026",
+      "machine_id": "EQ-01",
+      "date": "2026-03-11",
+      "shift": "B",
+      "shift_start": "2026-03-11T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 31,
+      "produced_qty": 1690,
+      "defect_qty": 9,
+      "stop_reasons": [
+        "금형 교체"
+      ],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0027",
+      "machine_id": "EQ-02",
+      "date": "2026-03-11",
+      "shift": "A",
+      "shift_start": "2026-03-11T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 25,
+      "produced_qty": 1920,
+      "defect_qty": 28,
+      "stop_reasons": [
+        "작업자 교대"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0028",
+      "machine_id": "EQ-02",
+      "date": "2026-03-11",
+      "shift": "B",
+      "shift_start": "2026-03-11T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 5,
+      "produced_qty": 2039,
+      "defect_qty": 22,
+      "stop_reasons": [],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0029",
+      "machine_id": "EQ-03",
+      "date": "2026-03-11",
+      "shift": "A",
+      "shift_start": "2026-03-11T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 24,
+      "produced_qty": 925,
+      "defect_qty": 16,
+      "stop_reasons": [
+        "작업자 교대",
+        "설비 알람",
+        "금형 교체"
+      ],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0030",
+      "machine_id": "EQ-03",
+      "date": "2026-03-11",
+      "shift": "B",
+      "shift_start": "2026-03-11T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 2,
+      "produced_qty": 1010,
+      "defect_qty": 3,
+      "stop_reasons": [],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0031",
+      "machine_id": "EQ-04",
+      "date": "2026-03-11",
+      "shift": "A",
+      "shift_start": "2026-03-11T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 71,
+      "produced_qty": 699,
+      "defect_qty": 5,
+      "stop_reasons": [
+        "품질 이상 조치",
+        "예방 정비",
+        "금형 교체"
+      ],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0032",
+      "machine_id": "EQ-04",
+      "date": "2026-03-11",
+      "shift": "B",
+      "shift_start": "2026-03-11T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 26,
+      "produced_qty": 837,
+      "defect_qty": 2,
+      "stop_reasons": [
+        "설비 알람",
+        "작업자 교대"
+      ],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0033",
+      "machine_id": "EQ-05",
+      "date": "2026-03-11",
+      "shift": "A",
+      "shift_start": "2026-03-11T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 104,
+      "produced_qty": 206,
+      "defect_qty": 1,
+      "stop_reasons": [
+        "자재 대기",
+        "품질 이상 조치",
+        "작업자 교대"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0034",
+      "machine_id": "EQ-05",
+      "date": "2026-03-11",
+      "shift": "B",
+      "shift_start": "2026-03-11T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 103,
+      "produced_qty": 211,
+      "defect_qty": 3,
+      "stop_reasons": [
+        "금형 교체",
+        "품질 이상 조치",
+        "작업자 교대"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0035",
+      "machine_id": "EQ-06",
+      "date": "2026-03-11",
+      "shift": "A",
+      "shift_start": "2026-03-11T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 73,
+      "produced_qty": 194,
+      "defect_qty": 3,
+      "stop_reasons": [
+        "전원 이상"
+      ],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0036",
+      "machine_id": "EQ-06",
+      "date": "2026-03-11",
+      "shift": "B",
+      "shift_start": "2026-03-11T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 63,
+      "produced_qty": 253,
+      "defect_qty": 2,
+      "stop_reasons": [
+        "자재 대기",
+        "품질 이상 조치"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0037",
+      "machine_id": "EQ-07",
+      "date": "2026-03-11",
+      "shift": "A",
+      "shift_start": "2026-03-11T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 19,
+      "produced_qty": 649,
+      "defect_qty": 9,
+      "stop_reasons": [
+        "작업자 교대"
+      ],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0038",
+      "machine_id": "EQ-07",
+      "date": "2026-03-11",
+      "shift": "B",
+      "shift_start": "2026-03-11T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 0,
+      "produced_qty": 609,
+      "defect_qty": 14,
+      "stop_reasons": [],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0039",
+      "machine_id": "EQ-08",
+      "date": "2026-03-11",
+      "shift": "A",
+      "shift_start": "2026-03-11T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 23,
+      "produced_qty": 575,
+      "defect_qty": 12,
+      "stop_reasons": [
+        "품질 이상 조치",
+        "작업자 교대",
+        "금형 교체"
+      ],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0040",
+      "machine_id": "EQ-08",
+      "date": "2026-03-11",
+      "shift": "B",
+      "shift_start": "2026-03-11T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 9,
+      "produced_qty": 671,
+      "defect_qty": 14,
+      "stop_reasons": [],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0041",
+      "machine_id": "EQ-09",
+      "date": "2026-03-11",
+      "shift": "A",
+      "shift_start": "2026-03-11T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 0,
+      "produced_qty": 1476,
+      "defect_qty": 39,
+      "stop_reasons": [],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0042",
+      "machine_id": "EQ-09",
+      "date": "2026-03-11",
+      "shift": "B",
+      "shift_start": "2026-03-11T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 21,
+      "produced_qty": 1331,
+      "defect_qty": 8,
+      "stop_reasons": [
+        "설비 알람",
+        "전원 이상"
+      ],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0043",
+      "machine_id": "EQ-10",
+      "date": "2026-03-11",
+      "shift": "A",
+      "shift_start": "2026-03-11T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 0,
+      "produced_qty": 1170,
+      "defect_qty": 25,
+      "stop_reasons": [],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0044",
+      "machine_id": "EQ-10",
+      "date": "2026-03-11",
+      "shift": "B",
+      "shift_start": "2026-03-11T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 0,
+      "produced_qty": 1273,
+      "defect_qty": 4,
+      "stop_reasons": [],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0045",
+      "machine_id": "EQ-11",
+      "date": "2026-03-11",
+      "shift": "A",
+      "shift_start": "2026-03-11T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 0,
+      "produced_qty": 2651,
+      "defect_qty": 30,
+      "stop_reasons": [],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0046",
+      "machine_id": "EQ-11",
+      "date": "2026-03-11",
+      "shift": "B",
+      "shift_start": "2026-03-11T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 0,
+      "produced_qty": null,
+      "defect_qty": null,
+      "stop_reasons": [],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0047",
+      "machine_id": "EQ-12",
+      "date": "2026-03-11",
+      "shift": "A",
+      "shift_start": "2026-03-11T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 44,
+      "produced_qty": 2205,
+      "defect_qty": 11,
+      "stop_reasons": [
+        "설비 알람",
+        "자재 대기"
+      ],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0048",
+      "machine_id": "EQ-12",
+      "date": "2026-03-11",
+      "shift": "B",
+      "shift_start": "2026-03-11T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 0,
+      "produced_qty": 2914,
+      "defect_qty": 37,
+      "stop_reasons": [],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0049",
+      "machine_id": "EQ-01",
+      "date": "2026-03-12",
+      "shift": "A",
+      "shift_start": "2026-03-12T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 57,
+      "produced_qty": 1655,
+      "defect_qty": 18,
+      "stop_reasons": [
+        "품질 이상 조치",
+        "금형 교체",
+        "자재 대기"
+      ],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0050",
+      "machine_id": "EQ-01",
+      "date": "2026-03-12",
+      "shift": "B",
+      "shift_start": "2026-03-12T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 43,
+      "produced_qty": 2120,
+      "defect_qty": 16,
+      "stop_reasons": [
+        "금형 교체",
+        "품질 이상 조치"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0051",
+      "machine_id": "EQ-02",
+      "date": "2026-03-12",
+      "shift": "A",
+      "shift_start": "2026-03-12T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 7,
+      "produced_qty": 2262,
+      "defect_qty": 41,
+      "stop_reasons": [],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0052",
+      "machine_id": "EQ-02",
+      "date": "2026-03-12",
+      "shift": "B",
+      "shift_start": "2026-03-12T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 31,
+      "produced_qty": 1854,
+      "defect_qty": 28,
+      "stop_reasons": [
+        "작업자 교대"
+      ],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0053",
+      "machine_id": "EQ-03",
+      "date": "2026-03-12",
+      "shift": "A",
+      "shift_start": "2026-03-12T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 12,
+      "produced_qty": 800,
+      "defect_qty": 19,
+      "stop_reasons": [
+        "작업자 교대",
+        "설비 알람"
+      ],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0054",
+      "machine_id": "EQ-03",
+      "date": "2026-03-12",
+      "shift": "B",
+      "shift_start": "2026-03-12T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 70,
+      "produced_qty": 809,
+      "defect_qty": 5,
+      "stop_reasons": [
+        "작업자 교대"
+      ],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0055",
+      "machine_id": "EQ-04",
+      "date": "2026-03-12",
+      "shift": "A",
+      "shift_start": "2026-03-12T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 47,
+      "produced_qty": null,
+      "defect_qty": null,
+      "stop_reasons": [
+        "금형 교체"
+      ],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0056",
+      "machine_id": "EQ-04",
+      "date": "2026-03-12",
+      "shift": "B",
+      "shift_start": "2026-03-12T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 41,
+      "produced_qty": 982,
+      "defect_qty": 13,
+      "stop_reasons": [
+        "설비 알람",
+        "금형 교체",
+        "예방 정비"
+      ],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0057",
+      "machine_id": "EQ-05",
+      "date": "2026-03-12",
+      "shift": "A",
+      "shift_start": "2026-03-12T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 62,
+      "produced_qty": 225,
+      "defect_qty": 6,
+      "stop_reasons": [
+        "금형 교체"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0058",
+      "machine_id": "EQ-05",
+      "date": "2026-03-12",
+      "shift": "B",
+      "shift_start": "2026-03-12T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 74,
+      "produced_qty": 194,
+      "defect_qty": 4,
+      "stop_reasons": [
+        "작업자 교대"
+      ],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0059",
+      "machine_id": "EQ-06",
+      "date": "2026-03-12",
+      "shift": "A",
+      "shift_start": "2026-03-12T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 69,
+      "produced_qty": 244,
+      "defect_qty": 0,
+      "stop_reasons": [
+        "전원 이상",
+        "설비 알람"
+      ],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0060",
+      "machine_id": "EQ-06",
+      "date": "2026-03-12",
+      "shift": "B",
+      "shift_start": "2026-03-12T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 45,
+      "produced_qty": 261,
+      "defect_qty": 6,
+      "stop_reasons": [
+        "전원 이상"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0061",
+      "machine_id": "EQ-07",
+      "date": "2026-03-12",
+      "shift": "A",
+      "shift_start": "2026-03-12T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 11,
+      "produced_qty": 598,
+      "defect_qty": 3,
+      "stop_reasons": [
+        "금형 교체",
+        "작업자 교대",
+        "예방 정비"
+      ],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0062",
+      "machine_id": "EQ-07",
+      "date": "2026-03-12",
+      "shift": "B",
+      "shift_start": "2026-03-12T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 45,
+      "produced_qty": 523,
+      "defect_qty": 13,
+      "stop_reasons": [
+        "품질 이상 조치",
+        "예방 정비"
+      ],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0063",
+      "machine_id": "EQ-08",
+      "date": "2026-03-12",
+      "shift": "A",
+      "shift_start": "2026-03-12T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 19,
+      "produced_qty": 604,
+      "defect_qty": 10,
+      "stop_reasons": [
+        "설비 알람",
+        "품질 이상 조치"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0064",
+      "machine_id": "EQ-08",
+      "date": "2026-03-12",
+      "shift": "B",
+      "shift_start": "2026-03-12T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 57,
+      "produced_qty": 519,
+      "defect_qty": 7,
+      "stop_reasons": [
+        "자재 대기",
+        "금형 교체"
+      ],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0065",
+      "machine_id": "EQ-09",
+      "date": "2026-03-12",
+      "shift": "A",
+      "shift_start": "2026-03-12T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 11,
+      "produced_qty": 1269,
+      "defect_qty": 7,
+      "stop_reasons": [
+        "예방 정비",
+        "자재 대기",
+        "설비 알람"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0066",
+      "machine_id": "EQ-09",
+      "date": "2026-03-12",
+      "shift": "B",
+      "shift_start": "2026-03-12T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 11,
+      "produced_qty": 1300,
+      "defect_qty": 31,
+      "stop_reasons": [
+        "자재 대기",
+        "금형 교체"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0067",
+      "machine_id": "EQ-10",
+      "date": "2026-03-12",
+      "shift": "A",
+      "shift_start": "2026-03-12T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 0,
+      "produced_qty": 1174,
+      "defect_qty": 28,
+      "stop_reasons": [],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0068",
+      "machine_id": "EQ-10",
+      "date": "2026-03-12",
+      "shift": "B",
+      "shift_start": "2026-03-12T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 1,
+      "produced_qty": 1434,
+      "defect_qty": 26,
+      "stop_reasons": [],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0069",
+      "machine_id": "EQ-11",
+      "date": "2026-03-12",
+      "shift": "A",
+      "shift_start": "2026-03-12T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 47,
+      "produced_qty": null,
+      "defect_qty": null,
+      "stop_reasons": [
+        "자재 대기",
+        "품질 이상 조치"
+      ],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0070",
+      "machine_id": "EQ-11",
+      "date": "2026-03-12",
+      "shift": "B",
+      "shift_start": "2026-03-12T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 51,
+      "produced_qty": 2593,
+      "defect_qty": 12,
+      "stop_reasons": [
+        "설비 알람",
+        "품질 이상 조치",
+        "자재 대기"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0071",
+      "machine_id": "EQ-12",
+      "date": "2026-03-12",
+      "shift": "A",
+      "shift_start": "2026-03-12T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 8,
+      "produced_qty": 2350,
+      "defect_qty": 51,
+      "stop_reasons": [],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0072",
+      "machine_id": "EQ-12",
+      "date": "2026-03-12",
+      "shift": "B",
+      "shift_start": "2026-03-12T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 33,
+      "produced_qty": 2268,
+      "defect_qty": 31,
+      "stop_reasons": [
+        "품질 이상 조치",
+        "전원 이상"
+      ],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0073",
+      "machine_id": "EQ-01",
+      "date": "2026-03-13",
+      "shift": "A",
+      "shift_start": "2026-03-13T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 71,
+      "produced_qty": 1678,
+      "defect_qty": 33,
+      "stop_reasons": [
+        "전원 이상"
+      ],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0074",
+      "machine_id": "EQ-01",
+      "date": "2026-03-13",
+      "shift": "B",
+      "shift_start": "2026-03-13T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 15,
+      "produced_qty": 1677,
+      "defect_qty": 17,
+      "stop_reasons": [
+        "전원 이상"
+      ],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0075",
+      "machine_id": "EQ-02",
+      "date": "2026-03-13",
+      "shift": "A",
+      "shift_start": "2026-03-13T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 31,
+      "produced_qty": null,
+      "defect_qty": null,
+      "stop_reasons": [
+        "품질 이상 조치",
+        "작업자 교대",
+        "전원 이상"
+      ],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0076",
+      "machine_id": "EQ-02",
+      "date": "2026-03-13",
+      "shift": "B",
+      "shift_start": "2026-03-13T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 23,
+      "produced_qty": 2083,
+      "defect_qty": 15,
+      "stop_reasons": [
+        "작업자 교대",
+        "금형 교체",
+        "품질 이상 조치"
+      ],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0077",
+      "machine_id": "EQ-03",
+      "date": "2026-03-13",
+      "shift": "A",
+      "shift_start": "2026-03-13T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 27,
+      "produced_qty": 822,
+      "defect_qty": 9,
+      "stop_reasons": [
+        "전원 이상"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0078",
+      "machine_id": "EQ-03",
+      "date": "2026-03-13",
+      "shift": "B",
+      "shift_start": "2026-03-13T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 60,
+      "produced_qty": 875,
+      "defect_qty": 3,
+      "stop_reasons": [
+        "예방 정비",
+        "품질 이상 조치"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0079",
+      "machine_id": "EQ-04",
+      "date": "2026-03-13",
+      "shift": "A",
+      "shift_start": "2026-03-13T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 35,
+      "produced_qty": 872,
+      "defect_qty": 6,
+      "stop_reasons": [
+        "자재 대기",
+        "전원 이상"
+      ],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0080",
+      "machine_id": "EQ-04",
+      "date": "2026-03-13",
+      "shift": "B",
+      "shift_start": "2026-03-13T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 50,
+      "produced_qty": 830,
+      "defect_qty": 18,
+      "stop_reasons": [
+        "전원 이상",
+        "작업자 교대",
+        "예방 정비"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0081",
+      "machine_id": "EQ-05",
+      "date": "2026-03-13",
+      "shift": "A",
+      "shift_start": "2026-03-13T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 47,
+      "produced_qty": 255,
+      "defect_qty": 1,
+      "stop_reasons": [
+        "작업자 교대",
+        "품질 이상 조치",
+        "금형 교체"
+      ],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0082",
+      "machine_id": "EQ-05",
+      "date": "2026-03-13",
+      "shift": "B",
+      "shift_start": "2026-03-13T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 75,
+      "produced_qty": 201,
+      "defect_qty": 2,
+      "stop_reasons": [
+        "자재 대기",
+        "금형 교체",
+        "작업자 교대"
+      ],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0083",
+      "machine_id": "EQ-06",
+      "date": "2026-03-13",
+      "shift": "A",
+      "shift_start": "2026-03-13T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 89,
+      "produced_qty": 230,
+      "defect_qty": 1,
+      "stop_reasons": [
+        "전원 이상",
+        "자재 대기"
+      ],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0084",
+      "machine_id": "EQ-06",
+      "date": "2026-03-13",
+      "shift": "B",
+      "shift_start": "2026-03-13T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 52,
+      "produced_qty": 250,
+      "defect_qty": 3,
+      "stop_reasons": [
+        "설비 알람",
+        "전원 이상"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0085",
+      "machine_id": "EQ-07",
+      "date": "2026-03-13",
+      "shift": "A",
+      "shift_start": "2026-03-13T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 30,
+      "produced_qty": 609,
+      "defect_qty": 15,
+      "stop_reasons": [
+        "자재 대기",
+        "예방 정비"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0086",
+      "machine_id": "EQ-07",
+      "date": "2026-03-13",
+      "shift": "B",
+      "shift_start": "2026-03-13T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 10,
+      "produced_qty": 567,
+      "defect_qty": 14,
+      "stop_reasons": [],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0087",
+      "machine_id": "EQ-08",
+      "date": "2026-03-13",
+      "shift": "A",
+      "shift_start": "2026-03-13T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 48,
+      "produced_qty": 608,
+      "defect_qty": 5,
+      "stop_reasons": [
+        "자재 대기",
+        "설비 알람"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0088",
+      "machine_id": "EQ-08",
+      "date": "2026-03-13",
+      "shift": "B",
+      "shift_start": "2026-03-13T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 22,
+      "produced_qty": 647,
+      "defect_qty": 8,
+      "stop_reasons": [
+        "작업자 교대",
+        "예방 정비",
+        "금형 교체"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0089",
+      "machine_id": "EQ-09",
+      "date": "2026-03-13",
+      "shift": "A",
+      "shift_start": "2026-03-13T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 20,
+      "produced_qty": 1108,
+      "defect_qty": 16,
+      "stop_reasons": [
+        "설비 알람",
+        "전원 이상",
+        "품질 이상 조치"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0090",
+      "machine_id": "EQ-09",
+      "date": "2026-03-13",
+      "shift": "B",
+      "shift_start": "2026-03-13T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 22,
+      "produced_qty": 1303,
+      "defect_qty": 4,
+      "stop_reasons": [
+        "예방 정비",
+        "자재 대기",
+        "작업자 교대"
+      ],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0091",
+      "machine_id": "EQ-10",
+      "date": "2026-03-13",
+      "shift": "A",
+      "shift_start": "2026-03-13T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 45,
+      "produced_qty": 1104,
+      "defect_qty": 15,
+      "stop_reasons": [
+        "설비 알람",
+        "작업자 교대"
+      ],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0092",
+      "machine_id": "EQ-10",
+      "date": "2026-03-13",
+      "shift": "B",
+      "shift_start": "2026-03-13T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 0,
+      "produced_qty": 1471,
+      "defect_qty": 10,
+      "stop_reasons": [],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0093",
+      "machine_id": "EQ-11",
+      "date": "2026-03-13",
+      "shift": "A",
+      "shift_start": "2026-03-13T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 0,
+      "produced_qty": 2907,
+      "defect_qty": 31,
+      "stop_reasons": [],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0094",
+      "machine_id": "EQ-11",
+      "date": "2026-03-13",
+      "shift": "B",
+      "shift_start": "2026-03-13T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 33,
+      "produced_qty": 2370,
+      "defect_qty": 10,
+      "stop_reasons": [
+        "자재 대기"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0095",
+      "machine_id": "EQ-12",
+      "date": "2026-03-13",
+      "shift": "A",
+      "shift_start": "2026-03-13T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 63,
+      "produced_qty": 2163,
+      "defect_qty": 32,
+      "stop_reasons": [
+        "자재 대기"
+      ],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0096",
+      "machine_id": "EQ-12",
+      "date": "2026-03-13",
+      "shift": "B",
+      "shift_start": "2026-03-13T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 39,
+      "produced_qty": 2655,
+      "defect_qty": 32,
+      "stop_reasons": [
+        "예방 정비",
+        "작업자 교대",
+        "설비 알람"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0097",
+      "machine_id": "EQ-01",
+      "date": "2026-03-14",
+      "shift": "A",
+      "shift_start": "2026-03-14T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 29,
+      "produced_qty": null,
+      "defect_qty": null,
+      "stop_reasons": [
+        "전원 이상"
+      ],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0098",
+      "machine_id": "EQ-01",
+      "date": "2026-03-14",
+      "shift": "B",
+      "shift_start": "2026-03-14T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 72,
+      "produced_qty": 1647,
+      "defect_qty": 42,
+      "stop_reasons": [
+        "작업자 교대",
+        "설비 알람",
+        "예방 정비"
+      ],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0099",
+      "machine_id": "EQ-02",
+      "date": "2026-03-14",
+      "shift": "A",
+      "shift_start": "2026-03-14T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 59,
+      "produced_qty": 1729,
+      "defect_qty": 36,
+      "stop_reasons": [
+        "예방 정비"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0100",
+      "machine_id": "EQ-02",
+      "date": "2026-03-14",
+      "shift": "B",
+      "shift_start": "2026-03-14T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 18,
+      "produced_qty": 2205,
+      "defect_qty": 21,
+      "stop_reasons": [
+        "설비 알람",
+        "작업자 교대"
+      ],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0101",
+      "machine_id": "EQ-03",
+      "date": "2026-03-14",
+      "shift": "A",
+      "shift_start": "2026-03-14T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 27,
+      "produced_qty": 799,
+      "defect_qty": 13,
+      "stop_reasons": [
+        "설비 알람",
+        "작업자 교대"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0102",
+      "machine_id": "EQ-03",
+      "date": "2026-03-14",
+      "shift": "B",
+      "shift_start": "2026-03-14T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 12,
+      "produced_qty": 998,
+      "defect_qty": 21,
+      "stop_reasons": [
+        "전원 이상"
+      ],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0103",
+      "machine_id": "EQ-04",
+      "date": "2026-03-14",
+      "shift": "A",
+      "shift_start": "2026-03-14T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 35,
+      "produced_qty": 794,
+      "defect_qty": 15,
+      "stop_reasons": [
+        "작업자 교대"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0104",
+      "machine_id": "EQ-04",
+      "date": "2026-03-14",
+      "shift": "B",
+      "shift_start": "2026-03-14T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 23,
+      "produced_qty": 781,
+      "defect_qty": 15,
+      "stop_reasons": [
+        "설비 알람",
+        "예방 정비",
+        "자재 대기"
+      ],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0105",
+      "machine_id": "EQ-05",
+      "date": "2026-03-14",
+      "shift": "A",
+      "shift_start": "2026-03-14T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 46,
+      "produced_qty": 224,
+      "defect_qty": 0,
+      "stop_reasons": [
+        "품질 이상 조치",
+        "작업자 교대",
+        "전원 이상"
+      ],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0106",
+      "machine_id": "EQ-05",
+      "date": "2026-03-14",
+      "shift": "B",
+      "shift_start": "2026-03-14T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 62,
+      "produced_qty": 226,
+      "defect_qty": 5,
+      "stop_reasons": [
+        "예방 정비",
+        "전원 이상",
+        "설비 알람"
+      ],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0107",
+      "machine_id": "EQ-06",
+      "date": "2026-03-14",
+      "shift": "A",
+      "shift_start": "2026-03-14T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 51,
+      "produced_qty": 214,
+      "defect_qty": 2,
+      "stop_reasons": [
+        "금형 교체",
+        "작업자 교대",
+        "전원 이상"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0108",
+      "machine_id": "EQ-06",
+      "date": "2026-03-14",
+      "shift": "B",
+      "shift_start": "2026-03-14T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 70,
+      "produced_qty": 204,
+      "defect_qty": 1,
+      "stop_reasons": [
+        "자재 대기"
+      ],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0109",
+      "machine_id": "EQ-07",
+      "date": "2026-03-14",
+      "shift": "A",
+      "shift_start": "2026-03-14T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 41,
+      "produced_qty": 546,
+      "defect_qty": 5,
+      "stop_reasons": [
+        "설비 알람",
+        "예방 정비",
+        "자재 대기"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0110",
+      "machine_id": "EQ-07",
+      "date": "2026-03-14",
+      "shift": "B",
+      "shift_start": "2026-03-14T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 5,
+      "produced_qty": 615,
+      "defect_qty": 15,
+      "stop_reasons": [],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0111",
+      "machine_id": "EQ-08",
+      "date": "2026-03-14",
+      "shift": "A",
+      "shift_start": "2026-03-14T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 25,
+      "produced_qty": 547,
+      "defect_qty": 1,
+      "stop_reasons": [
+        "작업자 교대",
+        "전원 이상",
+        "금형 교체"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0112",
+      "machine_id": "EQ-08",
+      "date": "2026-03-14",
+      "shift": "B",
+      "shift_start": "2026-03-14T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 0,
+      "produced_qty": 547,
+      "defect_qty": 11,
+      "stop_reasons": [],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0113",
+      "machine_id": "EQ-09",
+      "date": "2026-03-14",
+      "shift": "A",
+      "shift_start": "2026-03-14T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 31,
+      "produced_qty": 1161,
+      "defect_qty": 2,
+      "stop_reasons": [
+        "예방 정비",
+        "자재 대기"
+      ],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0114",
+      "machine_id": "EQ-09",
+      "date": "2026-03-14",
+      "shift": "B",
+      "shift_start": "2026-03-14T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 22,
+      "produced_qty": 1146,
+      "defect_qty": 3,
+      "stop_reasons": [
+        "설비 알람",
+        "금형 교체",
+        "자재 대기"
+      ],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0115",
+      "machine_id": "EQ-10",
+      "date": "2026-03-14",
+      "shift": "A",
+      "shift_start": "2026-03-14T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 17,
+      "produced_qty": 1193,
+      "defect_qty": 11,
+      "stop_reasons": [
+        "품질 이상 조치",
+        "자재 대기"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0116",
+      "machine_id": "EQ-10",
+      "date": "2026-03-14",
+      "shift": "B",
+      "shift_start": "2026-03-14T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 0,
+      "produced_qty": 1222,
+      "defect_qty": 27,
+      "stop_reasons": [],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0117",
+      "machine_id": "EQ-11",
+      "date": "2026-03-14",
+      "shift": "A",
+      "shift_start": "2026-03-14T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 32,
+      "produced_qty": 2825,
+      "defect_qty": 63,
+      "stop_reasons": [
+        "품질 이상 조치",
+        "작업자 교대",
+        "설비 알람"
+      ],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0118",
+      "machine_id": "EQ-11",
+      "date": "2026-03-14",
+      "shift": "B",
+      "shift_start": "2026-03-14T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 28,
+      "produced_qty": 2471,
+      "defect_qty": 32,
+      "stop_reasons": [
+        "작업자 교대"
+      ],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0119",
+      "machine_id": "EQ-12",
+      "date": "2026-03-14",
+      "shift": "A",
+      "shift_start": "2026-03-14T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 26,
+      "produced_qty": 2524,
+      "defect_qty": 62,
+      "stop_reasons": [
+        "설비 알람",
+        "예방 정비"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0120",
+      "machine_id": "EQ-12",
+      "date": "2026-03-14",
+      "shift": "B",
+      "shift_start": "2026-03-14T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 12,
+      "produced_qty": 2764,
+      "defect_qty": 25,
+      "stop_reasons": [
+        "설비 알람",
+        "전원 이상"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0121",
+      "machine_id": "EQ-01",
+      "date": "2026-03-15",
+      "shift": "A",
+      "shift_start": "2026-03-15T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 37,
+      "produced_qty": null,
+      "defect_qty": null,
+      "stop_reasons": [
+        "작업자 교대"
+      ],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0122",
+      "machine_id": "EQ-01",
+      "date": "2026-03-15",
+      "shift": "B",
+      "shift_start": "2026-03-15T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 49,
+      "produced_qty": 1710,
+      "defect_qty": 23,
+      "stop_reasons": [
+        "금형 교체",
+        "작업자 교대"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0123",
+      "machine_id": "EQ-02",
+      "date": "2026-03-15",
+      "shift": "A",
+      "shift_start": "2026-03-15T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 6,
+      "produced_qty": 1992,
+      "defect_qty": 30,
+      "stop_reasons": [],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0124",
+      "machine_id": "EQ-02",
+      "date": "2026-03-15",
+      "shift": "B",
+      "shift_start": "2026-03-15T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 10,
+      "produced_qty": 2268,
+      "defect_qty": 21,
+      "stop_reasons": [],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0125",
+      "machine_id": "EQ-03",
+      "date": "2026-03-15",
+      "shift": "A",
+      "shift_start": "2026-03-15T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 21,
+      "produced_qty": 783,
+      "defect_qty": 20,
+      "stop_reasons": [
+        "자재 대기"
+      ],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0126",
+      "machine_id": "EQ-03",
+      "date": "2026-03-15",
+      "shift": "B",
+      "shift_start": "2026-03-15T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 27,
+      "produced_qty": 755,
+      "defect_qty": 7,
+      "stop_reasons": [
+        "전원 이상"
+      ],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0127",
+      "machine_id": "EQ-04",
+      "date": "2026-03-15",
+      "shift": "A",
+      "shift_start": "2026-03-15T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 48,
+      "produced_qty": 839,
+      "defect_qty": 22,
+      "stop_reasons": [
+        "품질 이상 조치"
+      ],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0128",
+      "machine_id": "EQ-04",
+      "date": "2026-03-15",
+      "shift": "B",
+      "shift_start": "2026-03-15T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 27,
+      "produced_qty": 940,
+      "defect_qty": 2,
+      "stop_reasons": [
+        "예방 정비",
+        "전원 이상"
+      ],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0129",
+      "machine_id": "EQ-05",
+      "date": "2026-03-15",
+      "shift": "A",
+      "shift_start": "2026-03-15T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 47,
+      "produced_qty": 227,
+      "defect_qty": 5,
+      "stop_reasons": [
+        "설비 알람"
+      ],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0130",
+      "machine_id": "EQ-05",
+      "date": "2026-03-15",
+      "shift": "B",
+      "shift_start": "2026-03-15T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 78,
+      "produced_qty": 188,
+      "defect_qty": 2,
+      "stop_reasons": [
+        "예방 정비",
+        "작업자 교대",
+        "품질 이상 조치"
+      ],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0131",
+      "machine_id": "EQ-06",
+      "date": "2026-03-15",
+      "shift": "A",
+      "shift_start": "2026-03-15T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 81,
+      "produced_qty": 222,
+      "defect_qty": 0,
+      "stop_reasons": [
+        "설비 알람"
+      ],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0132",
+      "machine_id": "EQ-06",
+      "date": "2026-03-15",
+      "shift": "B",
+      "shift_start": "2026-03-15T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 76,
+      "produced_qty": 223,
+      "defect_qty": 1,
+      "stop_reasons": [
+        "자재 대기",
+        "설비 알람",
+        "전원 이상"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0133",
+      "machine_id": "EQ-07",
+      "date": "2026-03-15",
+      "shift": "A",
+      "shift_start": "2026-03-15T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 17,
+      "produced_qty": 608,
+      "defect_qty": 6,
+      "stop_reasons": [
+        "작업자 교대",
+        "예방 정비",
+        "전원 이상"
+      ],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0134",
+      "machine_id": "EQ-07",
+      "date": "2026-03-15",
+      "shift": "B",
+      "shift_start": "2026-03-15T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 69,
+      "produced_qty": 486,
+      "defect_qty": 1,
+      "stop_reasons": [
+        "자재 대기"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0135",
+      "machine_id": "EQ-08",
+      "date": "2026-03-15",
+      "shift": "A",
+      "shift_start": "2026-03-15T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 41,
+      "produced_qty": 624,
+      "defect_qty": 13,
+      "stop_reasons": [
+        "품질 이상 조치",
+        "예방 정비"
+      ],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0136",
+      "machine_id": "EQ-08",
+      "date": "2026-03-15",
+      "shift": "B",
+      "shift_start": "2026-03-15T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 39,
+      "produced_qty": 547,
+      "defect_qty": 10,
+      "stop_reasons": [
+        "예방 정비",
+        "품질 이상 조치",
+        "자재 대기"
+      ],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0137",
+      "machine_id": "EQ-09",
+      "date": "2026-03-15",
+      "shift": "A",
+      "shift_start": "2026-03-15T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 3,
+      "produced_qty": 1387,
+      "defect_qty": 16,
+      "stop_reasons": [],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0138",
+      "machine_id": "EQ-09",
+      "date": "2026-03-15",
+      "shift": "B",
+      "shift_start": "2026-03-15T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 32,
+      "produced_qty": 1411,
+      "defect_qty": 37,
+      "stop_reasons": [
+        "금형 교체"
+      ],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0139",
+      "machine_id": "EQ-10",
+      "date": "2026-03-15",
+      "shift": "A",
+      "shift_start": "2026-03-15T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 17,
+      "produced_qty": 1202,
+      "defect_qty": 5,
+      "stop_reasons": [
+        "전원 이상"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0140",
+      "machine_id": "EQ-10",
+      "date": "2026-03-15",
+      "shift": "B",
+      "shift_start": "2026-03-15T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 16,
+      "produced_qty": 1216,
+      "defect_qty": 6,
+      "stop_reasons": [
+        "설비 알람",
+        "전원 이상"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0141",
+      "machine_id": "EQ-11",
+      "date": "2026-03-15",
+      "shift": "A",
+      "shift_start": "2026-03-15T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 24,
+      "produced_qty": 2343,
+      "defect_qty": 37,
+      "stop_reasons": [
+        "예방 정비"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0142",
+      "machine_id": "EQ-11",
+      "date": "2026-03-15",
+      "shift": "B",
+      "shift_start": "2026-03-15T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 42,
+      "produced_qty": 2746,
+      "defect_qty": 31,
+      "stop_reasons": [
+        "예방 정비",
+        "자재 대기",
+        "금형 교체"
+      ],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0143",
+      "machine_id": "EQ-12",
+      "date": "2026-03-15",
+      "shift": "A",
+      "shift_start": "2026-03-15T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 15,
+      "produced_qty": 2745,
+      "defect_qty": 39,
+      "stop_reasons": [
+        "예방 정비",
+        "품질 이상 조치",
+        "전원 이상"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0144",
+      "machine_id": "EQ-12",
+      "date": "2026-03-15",
+      "shift": "B",
+      "shift_start": "2026-03-15T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 5,
+      "produced_qty": 2468,
+      "defect_qty": 43,
+      "stop_reasons": [],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0145",
+      "machine_id": "EQ-01",
+      "date": "2026-03-16",
+      "shift": "A",
+      "shift_start": "2026-03-16T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 30,
+      "produced_qty": 1928,
+      "defect_qty": 33,
+      "stop_reasons": [
+        "금형 교체",
+        "작업자 교대",
+        "설비 알람"
+      ],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0146",
+      "machine_id": "EQ-01",
+      "date": "2026-03-16",
+      "shift": "B",
+      "shift_start": "2026-03-16T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 7,
+      "produced_qty": 2307,
+      "defect_qty": 36,
+      "stop_reasons": [],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0147",
+      "machine_id": "EQ-02",
+      "date": "2026-03-16",
+      "shift": "A",
+      "shift_start": "2026-03-16T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 4,
+      "produced_qty": 2259,
+      "defect_qty": 59,
+      "stop_reasons": [],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0148",
+      "machine_id": "EQ-02",
+      "date": "2026-03-16",
+      "shift": "B",
+      "shift_start": "2026-03-16T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 75,
+      "produced_qty": 1665,
+      "defect_qty": 41,
+      "stop_reasons": [
+        "전원 이상"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0149",
+      "machine_id": "EQ-03",
+      "date": "2026-03-16",
+      "shift": "A",
+      "shift_start": "2026-03-16T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 8,
+      "produced_qty": null,
+      "defect_qty": null,
+      "stop_reasons": [],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0150",
+      "machine_id": "EQ-03",
+      "date": "2026-03-16",
+      "shift": "B",
+      "shift_start": "2026-03-16T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 40,
+      "produced_qty": 993,
+      "defect_qty": 19,
+      "stop_reasons": [
+        "자재 대기",
+        "예방 정비"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0151",
+      "machine_id": "EQ-04",
+      "date": "2026-03-16",
+      "shift": "A",
+      "shift_start": "2026-03-16T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 47,
+      "produced_qty": 780,
+      "defect_qty": 17,
+      "stop_reasons": [
+        "예방 정비"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0152",
+      "machine_id": "EQ-04",
+      "date": "2026-03-16",
+      "shift": "B",
+      "shift_start": "2026-03-16T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 56,
+      "produced_qty": null,
+      "defect_qty": null,
+      "stop_reasons": [
+        "금형 교체",
+        "품질 이상 조치",
+        "자재 대기"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0153",
+      "machine_id": "EQ-05",
+      "date": "2026-03-16",
+      "shift": "A",
+      "shift_start": "2026-03-16T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 55,
+      "produced_qty": 217,
+      "defect_qty": 5,
+      "stop_reasons": [
+        "품질 이상 조치",
+        "전원 이상"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0154",
+      "machine_id": "EQ-05",
+      "date": "2026-03-16",
+      "shift": "B",
+      "shift_start": "2026-03-16T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 82,
+      "produced_qty": 199,
+      "defect_qty": 5,
+      "stop_reasons": [
+        "전원 이상",
+        "품질 이상 조치",
+        "자재 대기"
+      ],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0155",
+      "machine_id": "EQ-06",
+      "date": "2026-03-16",
+      "shift": "A",
+      "shift_start": "2026-03-16T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 62,
+      "produced_qty": 229,
+      "defect_qty": 4,
+      "stop_reasons": [
+        "전원 이상",
+        "자재 대기"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0156",
+      "machine_id": "EQ-06",
+      "date": "2026-03-16",
+      "shift": "B",
+      "shift_start": "2026-03-16T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 73,
+      "produced_qty": 242,
+      "defect_qty": 4,
+      "stop_reasons": [
+        "작업자 교대",
+        "금형 교체",
+        "설비 알람"
+      ],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0157",
+      "machine_id": "EQ-07",
+      "date": "2026-03-16",
+      "shift": "A",
+      "shift_start": "2026-03-16T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 0,
+      "produced_qty": 546,
+      "defect_qty": 15,
+      "stop_reasons": [],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0158",
+      "machine_id": "EQ-07",
+      "date": "2026-03-16",
+      "shift": "B",
+      "shift_start": "2026-03-16T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 58,
+      "produced_qty": 548,
+      "defect_qty": 9,
+      "stop_reasons": [
+        "설비 알람",
+        "예방 정비"
+      ],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0159",
+      "machine_id": "EQ-08",
+      "date": "2026-03-16",
+      "shift": "A",
+      "shift_start": "2026-03-16T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 16,
+      "produced_qty": 606,
+      "defect_qty": 16,
+      "stop_reasons": [
+        "예방 정비",
+        "품질 이상 조치"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0160",
+      "machine_id": "EQ-08",
+      "date": "2026-03-16",
+      "shift": "B",
+      "shift_start": "2026-03-16T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 16,
+      "produced_qty": 633,
+      "defect_qty": 12,
+      "stop_reasons": [
+        "작업자 교대",
+        "예방 정비"
+      ],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0161",
+      "machine_id": "EQ-09",
+      "date": "2026-03-16",
+      "shift": "A",
+      "shift_start": "2026-03-16T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 45,
+      "produced_qty": 1080,
+      "defect_qty": 21,
+      "stop_reasons": [
+        "금형 교체",
+        "전원 이상"
+      ],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0162",
+      "machine_id": "EQ-09",
+      "date": "2026-03-16",
+      "shift": "B",
+      "shift_start": "2026-03-16T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 39,
+      "produced_qty": 1344,
+      "defect_qty": 10,
+      "stop_reasons": [
+        "설비 알람"
+      ],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0163",
+      "machine_id": "EQ-10",
+      "date": "2026-03-16",
+      "shift": "A",
+      "shift_start": "2026-03-16T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 1,
+      "produced_qty": 1476,
+      "defect_qty": 34,
+      "stop_reasons": [],
+      "operator": "1반"
+    },
+    {
+      "log_id": "SL-0164",
+      "machine_id": "EQ-10",
+      "date": "2026-03-16",
+      "shift": "B",
+      "shift_start": "2026-03-16T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 38,
+      "produced_qty": 1343,
+      "defect_qty": 21,
+      "stop_reasons": [
+        "금형 교체"
+      ],
+      "operator": "2반"
+    },
+    {
+      "log_id": "SL-0165",
+      "machine_id": "EQ-11",
+      "date": "2026-03-16",
+      "shift": "A",
+      "shift_start": "2026-03-16T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 35,
+      "produced_qty": 2239,
+      "defect_qty": 15,
+      "stop_reasons": [
+        "자재 대기",
+        "작업자 교대",
+        "품질 이상 조치"
+      ],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0166",
+      "machine_id": "EQ-11",
+      "date": "2026-03-16",
+      "shift": "B",
+      "shift_start": "2026-03-16T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 0,
+      "produced_qty": 2362,
+      "defect_qty": 22,
+      "stop_reasons": [],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0167",
+      "machine_id": "EQ-12",
+      "date": "2026-03-16",
+      "shift": "A",
+      "shift_start": "2026-03-16T06:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 9,
+      "produced_qty": 2463,
+      "defect_qty": 60,
+      "stop_reasons": [],
+      "operator": "3반"
+    },
+    {
+      "log_id": "SL-0168",
+      "machine_id": "EQ-12",
+      "date": "2026-03-16",
+      "shift": "B",
+      "shift_start": "2026-03-16T14:00:00+09:00",
+      "planned_min": 480,
+      "downtime_min": 22,
+      "produced_qty": 2792,
+      "defect_qty": 10,
+      "stop_reasons": [
+        "품질 이상 조치"
+      ],
+      "operator": "2반"
+    }
+  ]
+}

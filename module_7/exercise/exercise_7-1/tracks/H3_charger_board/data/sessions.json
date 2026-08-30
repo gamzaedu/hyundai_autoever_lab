@@ -1,0 +1,205 @@
+{
+  "as_of": "2026-03-17T09:00:00+09:00",
+  "sessions": [
+    {
+      "session_id": "S-002",
+      "charger_id": "CH-03",
+      "plate": "99버 6518",
+      "started_at": "2026-03-17T08:42:00+09:00",
+      "ended_at": null,
+      "soc_start_pct": 33.2,
+      "soc_end_pct": null,
+      "energy_kwh": null
+    },
+    {
+      "session_id": "S-004",
+      "charger_id": "CH-07",
+      "plate": "50서 3434",
+      "started_at": "2026-03-17T08:42:00+09:00",
+      "ended_at": null,
+      "soc_start_pct": 28.4,
+      "soc_end_pct": null,
+      "energy_kwh": null
+    },
+    {
+      "session_id": "S-001",
+      "charger_id": "CH-01",
+      "plate": "71나 3052",
+      "started_at": "2026-03-17T08:18:00+09:00",
+      "ended_at": null,
+      "soc_start_pct": 36.3,
+      "soc_end_pct": null,
+      "energy_kwh": null
+    },
+    {
+      "session_id": "S-003",
+      "charger_id": "CH-05",
+      "plate": "41라 3015",
+      "started_at": "2026-03-17T07:44:00+09:00",
+      "ended_at": null,
+      "soc_start_pct": 11.8,
+      "soc_end_pct": null,
+      "energy_kwh": null
+    },
+    {
+      "session_id": "S-011",
+      "charger_id": "CH-08",
+      "plate": "46나 1715",
+      "started_at": "2026-03-17T01:35:00+09:00",
+      "ended_at": "2026-03-17T03:45:00+09:00",
+      "soc_start_pct": 14.2,
+      "soc_end_pct": 52.3,
+      "energy_kwh": 9.4
+    },
+    {
+      "session_id": "S-005",
+      "charger_id": "CH-08",
+      "plate": "71다 1959",
+      "started_at": "2026-03-16T20:31:00+09:00",
+      "ended_at": "2026-03-17T00:36:00+09:00",
+      "soc_start_pct": 30.1,
+      "soc_end_pct": 90.6,
+      "energy_kwh": 17.9
+    },
+    {
+      "session_id": "S-009",
+      "charger_id": "CH-08",
+      "plate": "10나 1437",
+      "started_at": "2026-03-16T13:34:00+09:00",
+      "ended_at": "2026-03-16T16:26:00+09:00",
+      "soc_start_pct": 29.9,
+      "soc_end_pct": 77.4,
+      "energy_kwh": 13.7
+    },
+    {
+      "session_id": "S-007",
+      "charger_id": "CH-01",
+      "plate": "73머 1977",
+      "started_at": "2026-03-16T05:50:00+09:00",
+      "ended_at": "2026-03-16T07:13:00+09:00",
+      "soc_start_pct": 14.4,
+      "soc_end_pct": 45.0,
+      "energy_kwh": 115.9
+    },
+    {
+      "session_id": "S-020",
+      "charger_id": "CH-02",
+      "plate": "43머 2339",
+      "started_at": "2026-03-16T05:30:00+09:00",
+      "ended_at": "2026-03-16T07:45:00+09:00",
+      "soc_start_pct": 27.5,
+      "soc_end_pct": 87.4,
+      "energy_kwh": 160.2
+    },
+    {
+      "session_id": "S-012",
+      "charger_id": "CH-06",
+      "plate": "59나 4783",
+      "started_at": "2026-03-15T20:24:00+09:00",
+      "ended_at": "2026-03-16T00:19:00+09:00",
+      "soc_start_pct": 21.9,
+      "soc_end_pct": 77.8,
+      "energy_kwh": 21.5
+    },
+    {
+      "session_id": "S-006",
+      "charger_id": "CH-07",
+      "plate": "39버 7155",
+      "started_at": "2026-03-15T15:06:00+09:00",
+      "ended_at": "2026-03-15T19:08:00+09:00",
+      "soc_start_pct": 18.4,
+      "soc_end_pct": 73.4,
+      "energy_kwh": 17.4
+    },
+    {
+      "session_id": "S-018",
+      "charger_id": "CH-01",
+      "plate": "48버 2759",
+      "started_at": "2026-03-15T12:52:00+09:00",
+      "ended_at": "2026-03-15T13:33:00+09:00",
+      "soc_start_pct": 11.2,
+      "soc_end_pct": 70.0,
+      "energy_kwh": 44.3
+    },
+    {
+      "session_id": "S-016",
+      "charger_id": "CH-06",
+      "plate": "29나 7213",
+      "started_at": "2026-03-15T08:33:00+09:00",
+      "ended_at": "2026-03-15T12:08:00+09:00",
+      "soc_start_pct": 32.5,
+      "soc_end_pct": 91.0,
+      "energy_kwh": 14.1
+    },
+    {
+      "session_id": "S-017",
+      "charger_id": "CH-07",
+      "plate": "99머 9648",
+      "started_at": "2026-03-15T08:20:00+09:00",
+      "ended_at": "2026-03-15T10:13:00+09:00",
+      "soc_start_pct": 28.5,
+      "soc_end_pct": 65.7,
+      "energy_kwh": 10.0
+    },
+    {
+      "session_id": "S-013",
+      "charger_id": "CH-06",
+      "plate": "71서 5472",
+      "started_at": "2026-03-15T05:40:00+09:00",
+      "ended_at": "2026-03-15T07:31:00+09:00",
+      "soc_start_pct": 20.8,
+      "soc_end_pct": 75.3,
+      "energy_kwh": 7.1
+    },
+    {
+      "session_id": "S-008",
+      "charger_id": "CH-07",
+      "plate": "97버 2406",
+      "started_at": "2026-03-15T04:55:00+09:00",
+      "ended_at": "2026-03-15T09:14:00+09:00",
+      "soc_start_pct": 15.7,
+      "soc_end_pct": 62.2,
+      "energy_kwh": 18.5
+    },
+    {
+      "session_id": "S-010",
+      "charger_id": "CH-03",
+      "plate": "88나 3578",
+      "started_at": "2026-03-14T22:50:00+09:00",
+      "ended_at": "2026-03-15T02:50:00+09:00",
+      "soc_start_pct": 44.9,
+      "soc_end_pct": 100.0,
+      "energy_kwh": 19.5
+    },
+    {
+      "session_id": "S-015",
+      "charger_id": "CH-05",
+      "plate": "60라 8071",
+      "started_at": "2026-03-14T20:49:00+09:00",
+      "ended_at": "2026-03-14T22:54:00+09:00",
+      "soc_start_pct": 20.9,
+      "soc_end_pct": 73.8,
+      "energy_kwh": 11.2
+    },
+    {
+      "session_id": "S-019",
+      "charger_id": "CH-03",
+      "plate": "77버 5038",
+      "started_at": "2026-03-14T20:40:00+09:00",
+      "ended_at": "2026-03-14T21:44:00+09:00",
+      "soc_start_pct": 30.2,
+      "soc_end_pct": 68.4,
+      "energy_kwh": 4.3
+    },
+    {
+      "session_id": "S-014",
+      "charger_id": "CH-01",
+      "plate": "43서 1356",
+      "started_at": "2026-03-14T09:10:00+09:00",
+      "ended_at": "2026-03-14T10:20:00+09:00",
+      "soc_start_pct": 8.5,
+      "soc_end_pct": 40.7,
+      "energy_kwh": 69.5
+    }
+  ]
+}

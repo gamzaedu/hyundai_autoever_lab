@@ -1,0 +1,515 @@
+{
+  "as_of": "2026-03-17T09:00:00+09:00",
+  "categories": [
+    {
+      "id": "POWERTRAIN",
+      "label": "파워트레인"
+    },
+    {
+      "id": "DIAGNOSTICS",
+      "label": "진단"
+    },
+    {
+      "id": "NETWORK",
+      "label": "통신"
+    },
+    {
+      "id": "PROCESS",
+      "label": "프로세스"
+    },
+    {
+      "id": "OPERATION",
+      "label": "운영"
+    },
+    {
+      "id": "INFRA",
+      "label": "충전 인프라"
+    }
+  ],
+  "terms": [
+    {
+      "term_id": "T-001",
+      "term": "SOC",
+      "full_name": "State of Charge",
+      "category": "POWERTRAIN",
+      "definition_ko": "구동 배터리의 현재 충전 상태를 백분율로 나타낸 값",
+      "example": "EV 차량의 SOC 가 15% 미만이면 배터리 부족 알람 대상",
+      "aliases": [
+        "배터리 잔량"
+      ],
+      "related": [
+        "DTE",
+        "BMS"
+      ]
+    },
+    {
+      "term_id": "T-002",
+      "term": "DTE",
+      "full_name": "Distance To Empty",
+      "category": "POWERTRAIN",
+      "definition_ko": "현재 에너지로 주행 가능한 잔여 거리 추정값",
+      "example": "SOC 40% · DTE 180km 로 표시",
+      "aliases": [
+        "주행가능거리"
+      ],
+      "related": [
+        "SOC"
+      ]
+    },
+    {
+      "term_id": "T-003",
+      "term": "BMS",
+      "full_name": "Battery Management System",
+      "category": "POWERTRAIN",
+      "definition_ko": "배터리 셀 전압·온도·충방전을 관리하는 제어기",
+      "example": null,
+      "aliases": [],
+      "related": [
+        "SOC",
+        "셀 밸런싱"
+      ]
+    },
+    {
+      "term_id": "T-004",
+      "term": "셀 밸런싱",
+      "full_name": "Cell Balancing",
+      "category": "POWERTRAIN",
+      "definition_ko": "배터리 셀 간 전압 편차를 맞추는 동작",
+      "example": null,
+      "aliases": [],
+      "related": [
+        "BMS"
+      ]
+    },
+    {
+      "term_id": "T-005",
+      "term": "회생제동",
+      "full_name": "Regenerative Braking",
+      "category": "POWERTRAIN",
+      "definition_ko": "감속 시 운동에너지를 전기로 회수하는 제동 방식",
+      "example": "회생제동 단계를 올리면 SOC 감소가 느려짐",
+      "aliases": [],
+      "related": [
+        "SOC"
+      ]
+    },
+    {
+      "term_id": "T-006",
+      "term": "파워트레인",
+      "full_name": "Powertrain",
+      "category": "POWERTRAIN",
+      "definition_ko": "동력을 만들어 바퀴까지 전달하는 구성 전체",
+      "example": "EV / HEV / ICE 로 구분",
+      "aliases": [
+        "구동계"
+      ],
+      "related": [
+        "EV",
+        "HEV",
+        "ICE"
+      ]
+    },
+    {
+      "term_id": "T-007",
+      "term": "EV",
+      "full_name": "Battery Electric Vehicle",
+      "category": "POWERTRAIN",
+      "definition_ko": "배터리 전기만으로 구동하는 차량",
+      "example": "EV 는 fuel_pct 가 null",
+      "aliases": [
+        "전기차"
+      ],
+      "related": [
+        "HEV",
+        "ICE"
+      ]
+    },
+    {
+      "term_id": "T-008",
+      "term": "HEV",
+      "full_name": "Hybrid Electric Vehicle",
+      "category": "POWERTRAIN",
+      "definition_ko": "내연기관과 전기모터를 함께 쓰는 차량",
+      "example": null,
+      "aliases": [
+        "하이브리드"
+      ],
+      "related": [
+        "EV",
+        "ICE"
+      ]
+    },
+    {
+      "term_id": "T-009",
+      "term": "ICE",
+      "full_name": "Internal Combustion Engine",
+      "category": "POWERTRAIN",
+      "definition_ko": "내연기관만으로 구동하는 차량",
+      "example": "ICE 는 soc_pct 가 null",
+      "aliases": [
+        "내연기관차"
+      ],
+      "related": [
+        "EV",
+        "HEV"
+      ]
+    },
+    {
+      "term_id": "T-010",
+      "term": "DTC",
+      "full_name": "Diagnostic Trouble Code",
+      "category": "DIAGNOSTICS",
+      "definition_ko": "차량 제어기가 기록하는 고장 진단 코드",
+      "example": "P0420 은 촉매 효율 저하",
+      "aliases": [
+        "고장코드",
+        "진단코드"
+      ],
+      "related": [
+        "OBD-II",
+        "MIL"
+      ]
+    },
+    {
+      "term_id": "T-011",
+      "term": "OBD-II",
+      "full_name": "On-Board Diagnostics II",
+      "category": "DIAGNOSTICS",
+      "definition_ko": "차량 자가진단 표준 규격 및 커넥터",
+      "example": "OBD-II 스캐너로 DTC 를 읽음",
+      "aliases": [],
+      "related": [
+        "DTC"
+      ]
+    },
+    {
+      "term_id": "T-012",
+      "term": "MIL",
+      "full_name": "Malfunction Indicator Lamp",
+      "category": "DIAGNOSTICS",
+      "definition_ko": "계기판의 엔진 경고등",
+      "example": null,
+      "aliases": [
+        "엔진 경고등"
+      ],
+      "related": [
+        "DTC"
+      ]
+    },
+    {
+      "term_id": "T-013",
+      "term": "프리즈 프레임",
+      "full_name": "Freeze Frame",
+      "category": "DIAGNOSTICS",
+      "definition_ko": "DTC 발생 순간의 차량 상태 스냅샷",
+      "example": null,
+      "aliases": [],
+      "related": [
+        "DTC"
+      ]
+    },
+    {
+      "term_id": "T-014",
+      "term": "림프 모드",
+      "full_name": "Limp Home Mode",
+      "category": "DIAGNOSTICS",
+      "definition_ko": "고장 시 출력을 제한해 최소 주행만 허용하는 모드",
+      "example": null,
+      "aliases": [
+        "출력제한 모드"
+      ],
+      "related": [
+        "DTC"
+      ]
+    },
+    {
+      "term_id": "T-015",
+      "term": "CAN",
+      "full_name": "Controller Area Network",
+      "category": "NETWORK",
+      "definition_ko": "차량 내 제어기 간 통신에 쓰이는 버스 규격",
+      "example": "CAN 버스 이상 시 다수 경고등이 동시 점등",
+      "aliases": [],
+      "related": [
+        "ECU",
+        "게이트웨이"
+      ]
+    },
+    {
+      "term_id": "T-016",
+      "term": "ECU",
+      "full_name": "Electronic Control Unit",
+      "category": "NETWORK",
+      "definition_ko": "특정 기능을 담당하는 차량용 제어 컴퓨터",
+      "example": "한 대에 수십 개의 ECU 가 탑재",
+      "aliases": [
+        "제어기"
+      ],
+      "related": [
+        "CAN",
+        "OTA"
+      ]
+    },
+    {
+      "term_id": "T-017",
+      "term": "게이트웨이",
+      "full_name": "Gateway",
+      "category": "NETWORK",
+      "definition_ko": "서로 다른 통신 도메인을 중계하는 제어기",
+      "example": null,
+      "aliases": [],
+      "related": [
+        "CAN"
+      ]
+    },
+    {
+      "term_id": "T-018",
+      "term": "텔레메트리",
+      "full_name": "Telemetry",
+      "category": "NETWORK",
+      "definition_ko": "차량 상태를 원격으로 수집·전송하는 데이터",
+      "example": null,
+      "aliases": [],
+      "related": [
+        "TCU",
+        "last_seen"
+      ]
+    },
+    {
+      "term_id": "T-019",
+      "term": "TCU",
+      "full_name": "Telematics Control Unit",
+      "category": "NETWORK",
+      "definition_ko": "차량의 통신 모뎀 역할을 하는 제어기",
+      "example": null,
+      "aliases": [],
+      "related": [
+        "텔레메트리"
+      ]
+    },
+    {
+      "term_id": "T-020",
+      "term": "last_seen",
+      "full_name": "Last Seen",
+      "category": "NETWORK",
+      "definition_ko": "차량으로부터 마지막으로 신호를 수신한 시각",
+      "example": "as_of 와의 차이가 30분을 넘으면 통신 두절 판정",
+      "aliases": [
+        "최근 통신 시각"
+      ],
+      "related": [
+        "as_of",
+        "텔레메트리"
+      ]
+    },
+    {
+      "term_id": "T-021",
+      "term": "as_of",
+      "full_name": "As Of",
+      "category": "NETWORK",
+      "definition_ko": "데이터 스냅샷의 기준 시각",
+      "example": "알람 판정은 시스템 시각이 아니라 as_of 기준",
+      "aliases": [
+        "기준시각"
+      ],
+      "related": [
+        "last_seen"
+      ]
+    },
+    {
+      "term_id": "T-022",
+      "term": "OTA",
+      "full_name": "Over The Air",
+      "category": "PROCESS",
+      "definition_ko": "무선 통신으로 차량 소프트웨어를 갱신하는 방식",
+      "example": "OTA 캠페인으로 대상 차량에 단계별 배포",
+      "aliases": [
+        "무선 업데이트"
+      ],
+      "related": [
+        "ECU",
+        "롤아웃"
+      ]
+    },
+    {
+      "term_id": "T-023",
+      "term": "롤아웃",
+      "full_name": "Rollout",
+      "category": "PROCESS",
+      "definition_ko": "배포 대상을 단계적으로 넓혀가는 절차",
+      "example": "1차 5% · 2차 30% · 3차 전체",
+      "aliases": [
+        "단계 배포"
+      ],
+      "related": [
+        "OTA"
+      ]
+    },
+    {
+      "term_id": "T-024",
+      "term": "롤백",
+      "full_name": "Rollback",
+      "category": "PROCESS",
+      "definition_ko": "배포 후 문제 발생 시 이전 버전으로 되돌리는 조치",
+      "example": null,
+      "aliases": [],
+      "related": [
+        "OTA",
+        "롤아웃"
+      ]
+    },
+    {
+      "term_id": "T-025",
+      "term": "리콜",
+      "full_name": "Recall",
+      "category": "PROCESS",
+      "definition_ko": "안전 결함에 대해 제작사가 무상 수리하는 조치",
+      "example": null,
+      "aliases": [],
+      "related": [
+        "OTA"
+      ]
+    },
+    {
+      "term_id": "T-026",
+      "term": "관제",
+      "full_name": "Fleet Monitoring",
+      "category": "OPERATION",
+      "definition_ko": "다수 차량의 상태를 한 화면에서 감시하는 업무",
+      "example": null,
+      "aliases": [],
+      "related": [
+        "KPI",
+        "알람"
+      ]
+    },
+    {
+      "term_id": "T-027",
+      "term": "알람",
+      "full_name": "Alarm",
+      "category": "OPERATION",
+      "definition_ko": "정해진 규칙을 위반한 차량에 대해 발생시키는 경보",
+      "example": "SOC 15% 미만 · 무신호 30분 초과",
+      "aliases": [],
+      "related": [
+        "임계값",
+        "관제"
+      ]
+    },
+    {
+      "term_id": "T-028",
+      "term": "임계값",
+      "full_name": "Threshold",
+      "category": "OPERATION",
+      "definition_ko": "알람 발생 여부를 가르는 기준 수치",
+      "example": "임계값은 코드 한 곳에만 정의",
+      "aliases": [],
+      "related": [
+        "알람"
+      ]
+    },
+    {
+      "term_id": "T-029",
+      "term": "KPI",
+      "full_name": "Key Performance Indicator",
+      "category": "OPERATION",
+      "definition_ko": "운영 상태를 요약하는 핵심 지표",
+      "example": "총 대수 · 운행중 · 평균 SOC · 알람 차량",
+      "aliases": [
+        "핵심지표"
+      ],
+      "related": [
+        "관제"
+      ]
+    },
+    {
+      "term_id": "T-030",
+      "term": "가동률",
+      "full_name": "Availability",
+      "category": "OPERATION",
+      "definition_ko": "계획 시간 대비 실제 가동한 시간의 비율",
+      "example": null,
+      "aliases": [],
+      "related": [
+        "OEE",
+        "비가동"
+      ]
+    },
+    {
+      "term_id": "T-031",
+      "term": "OEE",
+      "full_name": "Overall Equipment Effectiveness",
+      "category": "OPERATION",
+      "definition_ko": "가동률·성능·품질을 곱해 산출하는 설비 종합효율",
+      "example": null,
+      "aliases": [
+        "설비종합효율"
+      ],
+      "related": [
+        "가동률"
+      ]
+    },
+    {
+      "term_id": "T-032",
+      "term": "비가동",
+      "full_name": "Downtime",
+      "category": "OPERATION",
+      "definition_ko": "설비가 계획 시간 중 멈춰 있던 시간",
+      "example": null,
+      "aliases": [],
+      "related": [
+        "가동률"
+      ]
+    },
+    {
+      "term_id": "T-033",
+      "term": "급속충전",
+      "full_name": "Fast Charging",
+      "category": "INFRA",
+      "definition_ko": "고출력 직류로 짧은 시간에 충전하는 방식",
+      "example": "본사 지하 2층 급속 2기 운영",
+      "aliases": [],
+      "related": [
+        "완속충전",
+        "kW"
+      ]
+    },
+    {
+      "term_id": "T-034",
+      "term": "완속충전",
+      "full_name": "Slow Charging",
+      "category": "INFRA",
+      "definition_ko": "교류 저출력으로 장시간 충전하는 방식",
+      "example": null,
+      "aliases": [],
+      "related": [
+        "급속충전"
+      ]
+    },
+    {
+      "term_id": "T-035",
+      "term": "kW",
+      "full_name": "Kilowatt",
+      "category": "INFRA",
+      "definition_ko": "전력의 단위. 충전기 출력 규격에 사용",
+      "example": "급속 100kW · 완속 7kW",
+      "aliases": [],
+      "related": [
+        "kWh"
+      ]
+    },
+    {
+      "term_id": "T-036",
+      "term": "kWh",
+      "full_name": "Kilowatt-hour",
+      "category": "INFRA",
+      "definition_ko": "전력량의 단위. 충전량 집계에 사용",
+      "example": "1회 충전 32.5kWh",
+      "aliases": [],
+      "related": [
+        "kW",
+        "SOC"
+      ]
+    }
+  ]
+}

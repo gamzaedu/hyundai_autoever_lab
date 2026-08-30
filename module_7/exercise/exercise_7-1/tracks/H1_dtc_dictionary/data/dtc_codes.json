@@ -1,0 +1,1070 @@
+{
+  "as_of": "2026-03-17T09:00:00+09:00",
+  "notice": "교육용 축약본. 실차 정비 판단 근거로 사용 금지.",
+  "systems": [
+    {
+      "id": "POWERTRAIN",
+      "label": "파워트레인",
+      "prefix": "P"
+    },
+    {
+      "id": "CHASSIS",
+      "label": "섀시",
+      "prefix": "C"
+    },
+    {
+      "id": "BODY",
+      "label": "바디",
+      "prefix": "B"
+    },
+    {
+      "id": "NETWORK",
+      "label": "네트워크",
+      "prefix": "U"
+    }
+  ],
+  "codes": [
+    {
+      "code": "P0011",
+      "system": "POWERTRAIN",
+      "defined_by": "SAE",
+      "title_ko": "흡기 캠축 위치 성능 이상 (뱅크1)",
+      "severity": "WARNING",
+      "symptoms": [
+        "가속 응답 지연",
+        "공회전 불안정"
+      ],
+      "possible_causes": [
+        "캠축 액추에이터 고착",
+        "엔진오일 열화"
+      ],
+      "analogy": "악기 박자가 미세하게 밀린 상태",
+      "related_codes": [
+        "P0016"
+      ]
+    },
+    {
+      "code": "P0016",
+      "system": "POWERTRAIN",
+      "defined_by": "SAE",
+      "title_ko": "크랭크축-캠축 위치 상관관계 이상",
+      "severity": "CRITICAL",
+      "symptoms": [
+        "시동 불량",
+        "심한 진동"
+      ],
+      "possible_causes": [
+        "타이밍 체인 늘어짐",
+        "센서 배선 손상"
+      ],
+      "analogy": "지휘자와 연주자의 박자가 어긋난 상태",
+      "related_codes": [
+        "P0011",
+        "P0335"
+      ]
+    },
+    {
+      "code": "P0087",
+      "system": "POWERTRAIN",
+      "defined_by": "SAE",
+      "title_ko": "연료 레일 압력 과소",
+      "severity": "CRITICAL",
+      "symptoms": [
+        "출력 급감",
+        "가속 불가"
+      ],
+      "possible_causes": [
+        "연료 필터 막힘",
+        "고압 펌프 성능 저하"
+      ],
+      "analogy": "수도관 압력이 떨어져 물이 찔끔 나오는 상태",
+      "related_codes": [
+        "P0088"
+      ]
+    },
+    {
+      "code": "P0088",
+      "system": "POWERTRAIN",
+      "defined_by": "SAE",
+      "title_ko": "연료 레일 압력 과대",
+      "severity": "WARNING",
+      "symptoms": [
+        "배기 매연 증가",
+        "연비 저하"
+      ],
+      "possible_causes": [
+        "압력 조절 밸브 고착"
+      ],
+      "analogy": "수도 밸브가 안 잠겨 물이 넘치는 상태",
+      "related_codes": [
+        "P0087"
+      ]
+    },
+    {
+      "code": "P0101",
+      "system": "POWERTRAIN",
+      "defined_by": "SAE",
+      "title_ko": "공기유량 센서 회로 성능 이상",
+      "severity": "WARNING",
+      "symptoms": [
+        "가속 시 울컥거림",
+        "연비 저하"
+      ],
+      "possible_causes": [
+        "MAF 센서 오염",
+        "흡기 호스 균열"
+      ],
+      "analogy": "코가 막혀 숨의 양을 잘못 세는 상태",
+      "related_codes": [
+        "P0102",
+        "P0103"
+      ]
+    },
+    {
+      "code": "P0102",
+      "system": "POWERTRAIN",
+      "defined_by": "SAE",
+      "title_ko": "공기유량 센서 입력 신호 과소",
+      "severity": "WARNING",
+      "symptoms": [
+        "출력 저하"
+      ],
+      "possible_causes": [
+        "MAF 센서 단선",
+        "흡기 누설"
+      ],
+      "analogy": "숨을 들이쉰 양을 실제보다 적게 센 상태",
+      "related_codes": [
+        "P0101"
+      ]
+    },
+    {
+      "code": "P0103",
+      "system": "POWERTRAIN",
+      "defined_by": "SAE",
+      "title_ko": "공기유량 센서 입력 신호 과대",
+      "severity": "WARNING",
+      "symptoms": [
+        "공회전 불안정"
+      ],
+      "possible_causes": [
+        "MAF 센서 단락"
+      ],
+      "analogy": "숨을 들이쉰 양을 실제보다 많이 센 상태",
+      "related_codes": [
+        "P0101"
+      ]
+    },
+    {
+      "code": "P0113",
+      "system": "POWERTRAIN",
+      "defined_by": "SAE",
+      "title_ko": "흡기 온도 센서 회로 전압 과대",
+      "severity": "INFO",
+      "symptoms": [
+        "증상 미미"
+      ],
+      "possible_causes": [
+        "센서 커넥터 접촉 불량"
+      ],
+      "analogy": "체온계가 헐거워 이상한 값을 읽는 상태",
+      "related_codes": []
+    },
+    {
+      "code": "P0128",
+      "system": "POWERTRAIN",
+      "defined_by": "SAE",
+      "title_ko": "냉각수 온도가 규정치 미달",
+      "severity": "INFO",
+      "symptoms": [
+        "히터 온도 부족",
+        "연비 소폭 저하"
+      ],
+      "possible_causes": [
+        "서모스탯 열림 고착"
+      ],
+      "analogy": "보온병 뚜껑이 안 닫혀 계속 식는 상태",
+      "related_codes": [
+        "P0217"
+      ]
+    },
+    {
+      "code": "P0131",
+      "system": "POWERTRAIN",
+      "defined_by": "SAE",
+      "title_ko": "산소센서 회로 전압 과소 (뱅크1 센서1)",
+      "severity": "WARNING",
+      "symptoms": [
+        "연비 저하",
+        "배기 냄새"
+      ],
+      "possible_causes": [
+        "산소센서 열화",
+        "배기 누설"
+      ],
+      "analogy": "맛을 못 느껴 간을 못 맞추는 상태",
+      "related_codes": [
+        "P0132",
+        "P0135"
+      ]
+    },
+    {
+      "code": "P0132",
+      "system": "POWERTRAIN",
+      "defined_by": "SAE",
+      "title_ko": "산소센서 회로 전압 과대 (뱅크1 센서1)",
+      "severity": "WARNING",
+      "symptoms": [
+        "연비 저하"
+      ],
+      "possible_causes": [
+        "산소센서 오염"
+      ],
+      "analogy": "혀가 둔해져 짠맛만 느끼는 상태",
+      "related_codes": [
+        "P0131"
+      ]
+    },
+    {
+      "code": "P0135",
+      "system": "POWERTRAIN",
+      "defined_by": "SAE",
+      "title_ko": "산소센서 히터 회로 이상 (뱅크1 센서1)",
+      "severity": "WARNING",
+      "symptoms": [
+        "냉간 시 연비 저하"
+      ],
+      "possible_causes": [
+        "히터 코일 단선",
+        "퓨즈 단선"
+      ],
+      "analogy": "체온계가 데워지지 않아 값이 늦게 잡히는 상태",
+      "related_codes": [
+        "P0131",
+        "P0141"
+      ]
+    },
+    {
+      "code": "P0138",
+      "system": "POWERTRAIN",
+      "defined_by": "SAE",
+      "title_ko": "산소센서 회로 전압 과대 (뱅크1 센서2)",
+      "severity": "WARNING",
+      "symptoms": [
+        "연비 저하"
+      ],
+      "possible_causes": [
+        "센서 열화"
+      ],
+      "analogy": "뒷맛을 잘못 느끼는 상태",
+      "related_codes": [
+        "P0420"
+      ]
+    },
+    {
+      "code": "P0141",
+      "system": "POWERTRAIN",
+      "defined_by": "SAE",
+      "title_ko": "산소센서 히터 회로 이상 (뱅크1 센서2)",
+      "severity": "WARNING",
+      "symptoms": [
+        "냉간 배출 증가"
+      ],
+      "possible_causes": [
+        "히터 단선"
+      ],
+      "analogy": "두 번째 체온계가 안 데워지는 상태",
+      "related_codes": [
+        "P0135"
+      ]
+    },
+    {
+      "code": "P0171",
+      "system": "POWERTRAIN",
+      "defined_by": "SAE",
+      "title_ko": "연료 혼합비 희박 (뱅크1)",
+      "severity": "WARNING",
+      "symptoms": [
+        "가속 지연",
+        "공회전 흔들림"
+      ],
+      "possible_causes": [
+        "흡기 누설",
+        "연료 압력 부족"
+      ],
+      "analogy": "요리에 물을 너무 많이 부은 상태",
+      "related_codes": [
+        "P0174",
+        "P0101"
+      ]
+    },
+    {
+      "code": "P0172",
+      "system": "POWERTRAIN",
+      "defined_by": "SAE",
+      "title_ko": "연료 혼합비 농후 (뱅크1)",
+      "severity": "WARNING",
+      "symptoms": [
+        "매연",
+        "연비 급감"
+      ],
+      "possible_causes": [
+        "인젝터 누유",
+        "산소센서 오작동"
+      ],
+      "analogy": "소금을 너무 많이 넣은 상태",
+      "related_codes": [
+        "P0175"
+      ]
+    },
+    {
+      "code": "P0174",
+      "system": "POWERTRAIN",
+      "defined_by": "SAE",
+      "title_ko": "연료 혼합비 희박 (뱅크2)",
+      "severity": "WARNING",
+      "symptoms": [
+        "가속 지연"
+      ],
+      "possible_causes": [
+        "흡기 누설"
+      ],
+      "analogy": "두 번째 냄비에도 물을 너무 부은 상태",
+      "related_codes": [
+        "P0171"
+      ]
+    },
+    {
+      "code": "P0175",
+      "system": "POWERTRAIN",
+      "defined_by": "SAE",
+      "title_ko": "연료 혼합비 농후 (뱅크2)",
+      "severity": "WARNING",
+      "symptoms": [
+        "매연"
+      ],
+      "possible_causes": [
+        "인젝터 누유"
+      ],
+      "analogy": "두 번째 냄비가 짜진 상태",
+      "related_codes": [
+        "P0172"
+      ]
+    },
+    {
+      "code": "P0201",
+      "system": "POWERTRAIN",
+      "defined_by": "SAE",
+      "title_ko": "1번 인젝터 회로 이상",
+      "severity": "CRITICAL",
+      "symptoms": [
+        "실화",
+        "심한 진동"
+      ],
+      "possible_causes": [
+        "인젝터 커넥터 탈거",
+        "배선 단선"
+      ],
+      "analogy": "4명 중 1명이 노를 안 젓는 상태",
+      "related_codes": [
+        "P0300",
+        "P0301"
+      ]
+    },
+    {
+      "code": "P0217",
+      "system": "POWERTRAIN",
+      "defined_by": "SAE",
+      "title_ko": "엔진 과열",
+      "severity": "CRITICAL",
+      "symptoms": [
+        "출력 제한",
+        "경고등 점등"
+      ],
+      "possible_causes": [
+        "냉각수 부족",
+        "워터펌프 불량"
+      ],
+      "analogy": "열이 40도까지 오른 상태",
+      "related_codes": [
+        "P0128",
+        "P0480"
+      ]
+    },
+    {
+      "code": "P0299",
+      "system": "POWERTRAIN",
+      "defined_by": "SAE",
+      "title_ko": "터보 과급 부족",
+      "severity": "WARNING",
+      "symptoms": [
+        "가속 부족"
+      ],
+      "possible_causes": [
+        "부스트 호스 이탈"
+      ],
+      "analogy": "바람이 새는 풍선 상태",
+      "related_codes": []
+    },
+    {
+      "code": "P0300",
+      "system": "POWERTRAIN",
+      "defined_by": "SAE",
+      "title_ko": "다기통 랜덤 실화 감지",
+      "severity": "CRITICAL",
+      "symptoms": [
+        "심한 진동",
+        "경고등 점멸"
+      ],
+      "possible_causes": [
+        "점화 플러그 수명 초과",
+        "연료 품질 불량"
+      ],
+      "analogy": "심장이 박자를 여러 번 건너뛰는 상태",
+      "related_codes": [
+        "P0301",
+        "P0302"
+      ]
+    },
+    {
+      "code": "P0301",
+      "system": "POWERTRAIN",
+      "defined_by": "SAE",
+      "title_ko": "1번 실린더 실화",
+      "severity": "CRITICAL",
+      "symptoms": [
+        "진동",
+        "출력 저하"
+      ],
+      "possible_causes": [
+        "점화 코일 불량",
+        "플러그 마모"
+      ],
+      "analogy": "4기통 중 1번 기통이 쉬는 상태",
+      "related_codes": [
+        "P0300"
+      ]
+    },
+    {
+      "code": "P0302",
+      "system": "POWERTRAIN",
+      "defined_by": "SAE",
+      "title_ko": "2번 실린더 실화",
+      "severity": "CRITICAL",
+      "symptoms": [
+        "진동",
+        "출력 저하"
+      ],
+      "possible_causes": [
+        "점화 코일 불량"
+      ],
+      "analogy": "4기통 중 2번 기통이 쉬는 상태",
+      "related_codes": [
+        "P0300"
+      ]
+    },
+    {
+      "code": "P0325",
+      "system": "POWERTRAIN",
+      "defined_by": "SAE",
+      "title_ko": "노크 센서 회로 이상 (뱅크1)",
+      "severity": "WARNING",
+      "symptoms": [
+        "출력 저하",
+        "점화시기 지각"
+      ],
+      "possible_causes": [
+        "센서 체결 토크 불량"
+      ],
+      "analogy": "귀가 안 들려 이상 소음을 못 잡는 상태",
+      "related_codes": []
+    },
+    {
+      "code": "P0335",
+      "system": "POWERTRAIN",
+      "defined_by": "SAE",
+      "title_ko": "크랭크축 위치 센서 회로 이상",
+      "severity": "CRITICAL",
+      "symptoms": [
+        "시동 불가"
+      ],
+      "possible_causes": [
+        "센서 불량"
+      ],
+      "analogy": "심장 박동을 못 재는 상태",
+      "related_codes": [
+        "P0016",
+        "P0340"
+      ]
+    },
+    {
+      "code": "P0340",
+      "system": "POWERTRAIN",
+      "defined_by": "SAE",
+      "title_ko": "캠축 위치 센서 회로 이상",
+      "severity": "CRITICAL",
+      "symptoms": [
+        "시동 지연",
+        "주행 중 정지"
+      ],
+      "possible_causes": [
+        "센서 불량",
+        "타이밍 이탈"
+      ],
+      "analogy": "악보 위치를 놓쳐 연주가 끊기는 상태",
+      "related_codes": [
+        "P0335"
+      ]
+    },
+    {
+      "code": "P0401",
+      "system": "POWERTRAIN",
+      "defined_by": "SAE",
+      "title_ko": "배기가스 재순환 유량 부족",
+      "severity": "WARNING",
+      "symptoms": [
+        "노킹",
+        "배출가스 증가"
+      ],
+      "possible_causes": [
+        "EGR 밸브 카본 퇴적"
+      ],
+      "analogy": "환기구가 막혀 공기가 안 도는 상태",
+      "related_codes": [
+        "P0402"
+      ]
+    },
+    {
+      "code": "P0402",
+      "system": "POWERTRAIN",
+      "defined_by": "SAE",
+      "title_ko": "배기가스 재순환 유량 과다",
+      "severity": "WARNING",
+      "symptoms": [
+        "공회전 불안정"
+      ],
+      "possible_causes": [
+        "EGR 밸브 고착 열림"
+      ],
+      "analogy": "환기구가 계속 열려 찬바람이 도는 상태",
+      "related_codes": [
+        "P0401"
+      ]
+    },
+    {
+      "code": "P0420",
+      "system": "POWERTRAIN",
+      "defined_by": "SAE",
+      "title_ko": "촉매 변환기 효율 기준치 미만 (뱅크1)",
+      "severity": "WARNING",
+      "symptoms": [
+        "배기 냄새",
+        "정기검사 불합격"
+      ],
+      "possible_causes": [
+        "촉매 열화",
+        "산소센서 오차"
+      ],
+      "analogy": "공기청정기 필터가 낡아 정화가 안 되는 상태",
+      "related_codes": [
+        "P0430",
+        "P0131"
+      ]
+    },
+    {
+      "code": "P0430",
+      "system": "POWERTRAIN",
+      "defined_by": "SAE",
+      "title_ko": "촉매 변환기 효율 기준치 미만 (뱅크2)",
+      "severity": "WARNING",
+      "symptoms": [
+        "배기 냄새"
+      ],
+      "possible_causes": [
+        "촉매 열화"
+      ],
+      "analogy": "두 번째 청정기 필터도 낡은 상태",
+      "related_codes": [
+        "P0420"
+      ]
+    },
+    {
+      "code": "P0442",
+      "system": "POWERTRAIN",
+      "defined_by": "SAE",
+      "title_ko": "증발가스 누설 감지 (소량)",
+      "severity": "INFO",
+      "symptoms": [
+        "연료 냄새"
+      ],
+      "possible_causes": [
+        "주유구 캡 미체결"
+      ],
+      "analogy": "뚜껑을 덜 닫아 냄새가 새는 상태",
+      "related_codes": [
+        "P0455"
+      ]
+    },
+    {
+      "code": "P0455",
+      "system": "POWERTRAIN",
+      "defined_by": "SAE",
+      "title_ko": "증발가스 누설 감지 (다량)",
+      "severity": "WARNING",
+      "symptoms": [
+        "강한 연료 냄새"
+      ],
+      "possible_causes": [
+        "증발가스 호스 파손"
+      ],
+      "analogy": "뚜껑이 아예 없는 상태",
+      "related_codes": [
+        "P0442"
+      ]
+    },
+    {
+      "code": "P0480",
+      "system": "POWERTRAIN",
+      "defined_by": "SAE",
+      "title_ko": "냉각 팬 제어 회로 이상",
+      "severity": "WARNING",
+      "symptoms": [
+        "정차 시 수온 상승"
+      ],
+      "possible_causes": [
+        "팬 릴레이 불량"
+      ],
+      "analogy": "선풍기가 안 도는 상태",
+      "related_codes": [
+        "P0217"
+      ]
+    },
+    {
+      "code": "P0500",
+      "system": "POWERTRAIN",
+      "defined_by": "SAE",
+      "title_ko": "차속 센서 신호 이상",
+      "severity": "WARNING",
+      "symptoms": [
+        "속도계 오작동",
+        "변속 충격"
+      ],
+      "possible_causes": [
+        "휠 스피드 센서 배선 손상"
+      ],
+      "analogy": "속도계 바늘이 멋대로 움직이는 상태",
+      "related_codes": [
+        "C0031"
+      ]
+    },
+    {
+      "code": "P0562",
+      "system": "POWERTRAIN",
+      "defined_by": "SAE",
+      "title_ko": "시스템 전압 과소",
+      "severity": "CRITICAL",
+      "symptoms": [
+        "시동 불가",
+        "경고등 다발"
+      ],
+      "possible_causes": [
+        "배터리 열화",
+        "발전기 불량"
+      ],
+      "analogy": "휴대폰 배터리가 5% 남은 상태",
+      "related_codes": [
+        "P0563"
+      ]
+    },
+    {
+      "code": "P0563",
+      "system": "POWERTRAIN",
+      "defined_by": "SAE",
+      "title_ko": "시스템 전압 과대",
+      "severity": "WARNING",
+      "symptoms": [
+        "전구 조기 단선"
+      ],
+      "possible_causes": [
+        "레귤레이터 불량"
+      ],
+      "analogy": "콘센트에 과전압이 걸린 상태",
+      "related_codes": [
+        "P0562"
+      ]
+    },
+    {
+      "code": "P0700",
+      "system": "POWERTRAIN",
+      "defined_by": "SAE",
+      "title_ko": "변속기 제어 시스템 이상 (참조 코드)",
+      "severity": "WARNING",
+      "symptoms": [
+        "변속 충격"
+      ],
+      "possible_causes": [
+        "TCU 하위 코드 존재"
+      ],
+      "analogy": "부서 대표로 올라온 민원 접수번호",
+      "related_codes": [
+        "P0730"
+      ]
+    },
+    {
+      "code": "P0730",
+      "system": "POWERTRAIN",
+      "defined_by": "SAE",
+      "title_ko": "기어비 부정확",
+      "severity": "CRITICAL",
+      "symptoms": [
+        "변속 지연",
+        "슬립"
+      ],
+      "possible_causes": [
+        "클러치 마모",
+        "유압 저하"
+      ],
+      "analogy": "자전거 체인이 헛도는 상태",
+      "related_codes": [
+        "P0700"
+      ]
+    },
+    {
+      "code": "P0A80",
+      "system": "POWERTRAIN",
+      "defined_by": "SAE",
+      "title_ko": "구동 배터리 팩 교체 필요",
+      "severity": "CRITICAL",
+      "symptoms": [
+        "주행가능거리 급감",
+        "출력 제한"
+      ],
+      "possible_causes": [
+        "셀 열화",
+        "셀 밸런싱 실패"
+      ],
+      "analogy": "오래된 보조배터리가 금방 닳는 상태",
+      "related_codes": [
+        "P0AFA"
+      ]
+    },
+    {
+      "code": "P0AFA",
+      "system": "POWERTRAIN",
+      "defined_by": "SAE",
+      "title_ko": "구동 배터리 전압 과소",
+      "severity": "CRITICAL",
+      "symptoms": [
+        "출력 제한",
+        "충전 불가"
+      ],
+      "possible_causes": [
+        "셀 불량",
+        "BMS 오류"
+      ],
+      "analogy": "배터리 한 칸이 죽어 전체가 멈춘 상태",
+      "related_codes": [
+        "P0A80"
+      ]
+    },
+    {
+      "code": "P1AAA",
+      "system": "POWERTRAIN",
+      "defined_by": "MANUFACTURER",
+      "title_ko": null,
+      "severity": null,
+      "symptoms": [],
+      "possible_causes": [],
+      "analogy": null,
+      "related_codes": []
+    },
+    {
+      "code": "C0031",
+      "system": "CHASSIS",
+      "defined_by": "SAE",
+      "title_ko": "좌측 전륜 휠 스피드 센서 회로 이상",
+      "severity": "WARNING",
+      "symptoms": [
+        "ABS 경고등",
+        "제동 시 이질감"
+      ],
+      "possible_causes": [
+        "센서 오염",
+        "톤휠 손상"
+      ],
+      "analogy": "네 바퀴 중 하나가 속도를 못 세는 상태",
+      "related_codes": [
+        "C0034",
+        "P0500"
+      ]
+    },
+    {
+      "code": "C0034",
+      "system": "CHASSIS",
+      "defined_by": "SAE",
+      "title_ko": "우측 전륜 휠 스피드 센서 회로 이상",
+      "severity": "WARNING",
+      "symptoms": [
+        "ABS 경고등"
+      ],
+      "possible_causes": [
+        "센서 배선 단선"
+      ],
+      "analogy": "반대편 바퀴도 속도를 못 세는 상태",
+      "related_codes": [
+        "C0031"
+      ]
+    },
+    {
+      "code": "C0051",
+      "system": "CHASSIS",
+      "defined_by": "SAE",
+      "title_ko": "조향각 센서 신호 이상",
+      "severity": "CRITICAL",
+      "symptoms": [
+        "차선유지 보조 해제",
+        "ESC 경고등"
+      ],
+      "possible_causes": [
+        "센서 영점 미보정"
+      ],
+      "analogy": "운전대의 중앙이 어디인지 모르는 상태",
+      "related_codes": [
+        "C0561"
+      ]
+    },
+    {
+      "code": "C0561",
+      "system": "CHASSIS",
+      "defined_by": "SAE",
+      "title_ko": "ESC 시스템 비활성화",
+      "severity": "WARNING",
+      "symptoms": [
+        "자세제어 미작동"
+      ],
+      "possible_causes": [
+        "하위 코드 선행 발생"
+      ],
+      "analogy": "안전요원이 잠시 자리를 비운 상태",
+      "related_codes": [
+        "C0051"
+      ]
+    },
+    {
+      "code": "C1234",
+      "system": "CHASSIS",
+      "defined_by": "MANUFACTURER",
+      "title_ko": null,
+      "severity": null,
+      "symptoms": [],
+      "possible_causes": [],
+      "analogy": null,
+      "related_codes": []
+    },
+    {
+      "code": "C1611",
+      "system": "CHASSIS",
+      "defined_by": "MANUFACTURER",
+      "title_ko": null,
+      "severity": null,
+      "symptoms": [],
+      "possible_causes": [],
+      "analogy": null,
+      "related_codes": []
+    },
+    {
+      "code": "B0010",
+      "system": "BODY",
+      "defined_by": "SAE",
+      "title_ko": "운전석 에어백 전개 회로 이상",
+      "severity": "CRITICAL",
+      "symptoms": [
+        "에어백 경고등"
+      ],
+      "possible_causes": [
+        "클럭 스프링 단선"
+      ],
+      "analogy": "안전벨트가 잠기지 않는 상태",
+      "related_codes": [
+        "B0020"
+      ]
+    },
+    {
+      "code": "B0020",
+      "system": "BODY",
+      "defined_by": "SAE",
+      "title_ko": "동승석 에어백 전개 회로 이상",
+      "severity": "CRITICAL",
+      "symptoms": [
+        "에어백 경고등"
+      ],
+      "possible_causes": [
+        "커넥터 접촉 불량"
+      ],
+      "analogy": "옆자리 안전장치가 꺼진 상태",
+      "related_codes": [
+        "B0010"
+      ]
+    },
+    {
+      "code": "B1650",
+      "system": "BODY",
+      "defined_by": "MANUFACTURER",
+      "title_ko": null,
+      "severity": null,
+      "symptoms": [],
+      "possible_causes": [],
+      "analogy": null,
+      "related_codes": []
+    },
+    {
+      "code": "B2601",
+      "system": "BODY",
+      "defined_by": "MANUFACTURER",
+      "title_ko": "도어 잠금 액추에이터 이상",
+      "severity": "INFO",
+      "symptoms": [
+        "일부 도어 미잠김"
+      ],
+      "possible_causes": [
+        "액추에이터 모터 소착"
+      ],
+      "analogy": "현관문 하나만 잠기지 않는 상태",
+      "related_codes": []
+    },
+    {
+      "code": "U0001",
+      "system": "NETWORK",
+      "defined_by": "SAE",
+      "title_ko": "고속 CAN 통신 버스 이상",
+      "severity": "CRITICAL",
+      "symptoms": [
+        "다수 경고등 동시 점등"
+      ],
+      "possible_causes": [
+        "배선 단락",
+        "종단저항 불량"
+      ],
+      "analogy": "사내 네트워크가 통째로 끊긴 상태",
+      "related_codes": [
+        "U0100",
+        "U0121"
+      ]
+    },
+    {
+      "code": "U0100",
+      "system": "NETWORK",
+      "defined_by": "SAE",
+      "title_ko": "ECM/PCM 과의 통신 두절",
+      "severity": "CRITICAL",
+      "symptoms": [
+        "시동 불가",
+        "계기판 무반응"
+      ],
+      "possible_causes": [
+        "ECU 전원 상실",
+        "커넥터 부식"
+      ],
+      "analogy": "부서 간 메신저가 끊긴 상태",
+      "related_codes": [
+        "U0001"
+      ]
+    },
+    {
+      "code": "U0121",
+      "system": "NETWORK",
+      "defined_by": "SAE",
+      "title_ko": "ABS 제어기와의 통신 두절",
+      "severity": "CRITICAL",
+      "symptoms": [
+        "ABS 미작동"
+      ],
+      "possible_causes": [
+        "ABS 모듈 전원 상실"
+      ],
+      "analogy": "안전팀과 연락이 끊긴 상태",
+      "related_codes": [
+        "U0001",
+        "C0031"
+      ]
+    },
+    {
+      "code": "U0140",
+      "system": "NETWORK",
+      "defined_by": "SAE",
+      "title_ko": "바디 제어기와의 통신 두절",
+      "severity": "WARNING",
+      "symptoms": [
+        "편의기능 미작동"
+      ],
+      "possible_causes": [
+        "BCM 통신 배선 손상"
+      ],
+      "analogy": "총무팀과 연락이 끊긴 상태",
+      "related_codes": [
+        "U0001"
+      ]
+    },
+    {
+      "code": "U0155",
+      "system": "NETWORK",
+      "defined_by": "SAE",
+      "title_ko": "계기판 제어기와의 통신 두절",
+      "severity": "WARNING",
+      "symptoms": [
+        "계기판 표시 이상"
+      ],
+      "possible_causes": [
+        "클러스터 배선 손상"
+      ],
+      "analogy": "상황판이 꺼진 상태",
+      "related_codes": [
+        "U0001"
+      ]
+    },
+    {
+      "code": "U0184",
+      "system": "NETWORK",
+      "defined_by": "SAE",
+      "title_ko": "오디오 제어기와의 통신 두절",
+      "severity": "INFO",
+      "symptoms": [
+        "오디오 미작동"
+      ],
+      "possible_causes": [
+        "헤드유닛 전원 불량"
+      ],
+      "analogy": "라디오만 안 나오는 상태",
+      "related_codes": []
+    },
+    {
+      "code": "U0300",
+      "system": "NETWORK",
+      "defined_by": "SAE",
+      "title_ko": "소프트웨어 버전 불일치",
+      "severity": "WARNING",
+      "symptoms": [
+        "OTA 실패",
+        "기능 일부 제한"
+      ],
+      "possible_causes": [
+        "부분 업데이트 실패"
+      ],
+      "analogy": "팀원마다 다른 버전의 문서를 보는 상태",
+      "related_codes": [
+        "U0100"
+      ]
+    },
+    {
+      "code": "U1000",
+      "system": "NETWORK",
+      "defined_by": "MANUFACTURER",
+      "title_ko": null,
+      "severity": null,
+      "symptoms": [],
+      "possible_causes": [],
+      "analogy": null,
+      "related_codes": []
+    }
+  ]
+}

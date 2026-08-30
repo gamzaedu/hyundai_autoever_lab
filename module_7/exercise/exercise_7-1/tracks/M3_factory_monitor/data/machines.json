@@ -1,0 +1,158 @@
+{
+  "as_of": "2026-03-17T09:00:00+09:00",
+  "plant": {
+    "plant_id": "PL-01",
+    "name": "화성 1공장",
+    "lines": [
+      "L1",
+      "L2",
+      "L3"
+    ]
+  },
+  "processes": [
+    {
+      "id": "PRESS",
+      "label": "프레스"
+    },
+    {
+      "id": "WELDING",
+      "label": "용접"
+    },
+    {
+      "id": "PAINT",
+      "label": "도장"
+    },
+    {
+      "id": "ASSEMBLY",
+      "label": "조립"
+    },
+    {
+      "id": "INSPECTION",
+      "label": "검사"
+    },
+    {
+      "id": "PACKING",
+      "label": "포장"
+    }
+  ],
+  "shifts": [
+    {
+      "id": "A",
+      "label": "주간 A (06:00~14:00)"
+    },
+    {
+      "id": "B",
+      "label": "주간 B (14:00~22:00)"
+    }
+  ],
+  "machines": [
+    {
+      "machine_id": "EQ-01",
+      "name": "프레스 1호기",
+      "line": "L1",
+      "process": "PRESS",
+      "rated_cycle_sec": 12,
+      "installed_at": "2024-01-12T09:00:00+09:00",
+      "vendor": "화천기공"
+    },
+    {
+      "machine_id": "EQ-02",
+      "name": "프레스 2호기",
+      "line": "L1",
+      "process": "PRESS",
+      "rated_cycle_sec": 12,
+      "installed_at": "2021-10-08T09:00:00+09:00",
+      "vendor": "현대위아"
+    },
+    {
+      "machine_id": "EQ-03",
+      "name": "용접로봇 1호기",
+      "line": "L1",
+      "process": "WELDING",
+      "rated_cycle_sec": 26,
+      "installed_at": "2023-11-21T09:00:00+09:00",
+      "vendor": "화천기공"
+    },
+    {
+      "machine_id": "EQ-04",
+      "name": "용접로봇 2호기",
+      "line": "L1",
+      "process": "WELDING",
+      "rated_cycle_sec": 26,
+      "installed_at": "2023-05-08T09:00:00+09:00",
+      "vendor": "두산로보틱스"
+    },
+    {
+      "machine_id": "EQ-05",
+      "name": "도장부스 A",
+      "line": "L2",
+      "process": "PAINT",
+      "rated_cycle_sec": 95,
+      "installed_at": "2021-01-24T09:00:00+09:00",
+      "vendor": "현대위아"
+    },
+    {
+      "machine_id": "EQ-06",
+      "name": "도장부스 B",
+      "line": "L2",
+      "process": "PAINT",
+      "rated_cycle_sec": 95,
+      "installed_at": "2024-01-22T09:00:00+09:00",
+      "vendor": "두산로보틱스"
+    },
+    {
+      "machine_id": "EQ-07",
+      "name": "조립로봇 1호기",
+      "line": "L2",
+      "process": "ASSEMBLY",
+      "rated_cycle_sec": 41,
+      "installed_at": "2020-07-23T09:00:00+09:00",
+      "vendor": "현대위아"
+    },
+    {
+      "machine_id": "EQ-08",
+      "name": "조립로봇 2호기",
+      "line": "L2",
+      "process": "ASSEMBLY",
+      "rated_cycle_sec": 41,
+      "installed_at": "2024-06-11T09:00:00+09:00",
+      "vendor": "화천기공"
+    },
+    {
+      "machine_id": "EQ-09",
+      "name": "검사기 1호기",
+      "line": "L3",
+      "process": "INSPECTION",
+      "rated_cycle_sec": 18,
+      "installed_at": "2023-03-03T09:00:00+09:00",
+      "vendor": "현대위아"
+    },
+    {
+      "machine_id": "EQ-10",
+      "name": "검사기 2호기",
+      "line": "L3",
+      "process": "INSPECTION",
+      "rated_cycle_sec": 18,
+      "installed_at": "2023-04-15T09:00:00+09:00",
+      "vendor": "화천기공"
+    },
+    {
+      "machine_id": "EQ-11",
+      "name": "포장기 1호기",
+      "line": "L3",
+      "process": "PACKING",
+      "rated_cycle_sec": 9,
+      "installed_at": "2019-08-30T09:00:00+09:00",
+      "vendor": "현대위아"
+    },
+    {
+      "machine_id": "EQ-12",
+      "name": "포장기 2호기",
+      "line": "L3",
+      "process": "PACKING",
+      "rated_cycle_sec": 9,
+      "installed_at": "2020-10-01T09:00:00+09:00",
+      "vendor": "두산로보틱스"
+    }
+  ]
+}

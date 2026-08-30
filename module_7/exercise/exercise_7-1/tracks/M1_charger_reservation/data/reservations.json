@@ -1,0 +1,416 @@
+{
+  "as_of": "2026-03-17T09:00:00+09:00",
+  "slot_minutes": 30,
+  "employees": [
+    {
+      "employee_id": "E-1007",
+      "name": "김도현",
+      "dept": "모빌리티서비스팀",
+      "plate": "99버 6518"
+    },
+    {
+      "employee_id": "E-1014",
+      "name": "이서연",
+      "dept": "스마트팩토리팀",
+      "plate": "41라 3015"
+    },
+    {
+      "employee_id": "E-1021",
+      "name": "박준호",
+      "dept": "차량인프라팀",
+      "plate": "50서 3434"
+    },
+    {
+      "employee_id": "E-1028",
+      "name": "최민지",
+      "dept": "커넥티드카개발팀",
+      "plate": "71다 1959"
+    },
+    {
+      "employee_id": "E-1035",
+      "name": "정우성",
+      "dept": "ITS운영팀",
+      "plate": "39버 7155"
+    },
+    {
+      "employee_id": "E-1042",
+      "name": "한지훈",
+      "dept": "모빌리티서비스팀",
+      "plate": "73머 1977"
+    },
+    {
+      "employee_id": "E-1049",
+      "name": "오세라",
+      "dept": "스마트팩토리팀",
+      "plate": "97버 2406"
+    },
+    {
+      "employee_id": "E-1056",
+      "name": "강태윤",
+      "dept": "차량인프라팀",
+      "plate": "10나 1437"
+    },
+    {
+      "employee_id": "E-1063",
+      "name": "윤가은",
+      "dept": "커넥티드카개발팀",
+      "plate": "88나 3578"
+    },
+    {
+      "employee_id": "E-1070",
+      "name": "임현우",
+      "dept": "ITS운영팀",
+      "plate": "46나 1715"
+    },
+    {
+      "employee_id": "E-1077",
+      "name": "서지안",
+      "dept": "모빌리티서비스팀",
+      "plate": "59나 4783"
+    },
+    {
+      "employee_id": "E-1084",
+      "name": "배성민",
+      "dept": "스마트팩토리팀",
+      "plate": "71서 5472"
+    },
+    {
+      "employee_id": "E-1091",
+      "name": "노아름",
+      "dept": "차량인프라팀",
+      "plate": "43서 1356"
+    },
+    {
+      "employee_id": "E-1098",
+      "name": "류정훈",
+      "dept": "커넥티드카개발팀",
+      "plate": "60라 8071"
+    },
+    {
+      "employee_id": "E-1105",
+      "name": "신예린",
+      "dept": "ITS운영팀",
+      "plate": "29나 7213"
+    },
+    {
+      "employee_id": "E-1112",
+      "name": "황보람",
+      "dept": "모빌리티서비스팀",
+      "plate": "99머 9648"
+    }
+  ],
+  "reservations": [
+    {
+      "reservation_id": "R-001",
+      "charger_id": "CH-01",
+      "employee_id": "E-1014",
+      "plate": "41라 3015",
+      "dept": "스마트팩토리팀",
+      "start_at": "2026-03-16T09:00:00+09:00",
+      "end_at": "2026-03-16T10:00:00+09:00",
+      "status": "DONE",
+      "created_at": "2026-03-16T01:00:00+09:00",
+      "checked_in_at": "2026-03-16T09:01:00+09:00",
+      "cancel_reason": null
+    },
+    {
+      "reservation_id": "R-002",
+      "charger_id": "CH-03",
+      "employee_id": "E-1021",
+      "plate": "50서 3434",
+      "dept": "차량인프라팀",
+      "start_at": "2026-03-16T10:30:00+09:00",
+      "end_at": "2026-03-16T12:00:00+09:00",
+      "status": "DONE",
+      "created_at": "2026-03-16T00:30:00+09:00",
+      "checked_in_at": "2026-03-16T10:38:00+09:00",
+      "cancel_reason": null
+    },
+    {
+      "reservation_id": "R-003",
+      "charger_id": "CH-02",
+      "employee_id": "E-1028",
+      "plate": "71다 1959",
+      "dept": "커넥티드카개발팀",
+      "start_at": "2026-03-16T13:00:00+09:00",
+      "end_at": "2026-03-16T14:00:00+09:00",
+      "status": "NOSHOW",
+      "created_at": "2026-03-15T00:00:00+09:00",
+      "checked_in_at": null,
+      "cancel_reason": null
+    },
+    {
+      "reservation_id": "R-004",
+      "charger_id": "CH-05",
+      "employee_id": "E-1035",
+      "plate": "39버 7155",
+      "dept": "ITS운영팀",
+      "start_at": "2026-03-16T14:00:00+09:00",
+      "end_at": "2026-03-16T16:00:00+09:00",
+      "status": "DONE",
+      "created_at": "2026-03-15T04:00:00+09:00",
+      "checked_in_at": "2026-03-16T14:02:00+09:00",
+      "cancel_reason": null
+    },
+    {
+      "reservation_id": "R-005",
+      "charger_id": "CH-06",
+      "employee_id": "E-1042",
+      "plate": "73머 1977",
+      "dept": "모빌리티서비스팀",
+      "start_at": "2026-03-16T16:30:00+09:00",
+      "end_at": "2026-03-16T17:30:00+09:00",
+      "status": "CANCELED",
+      "created_at": "2026-03-15T23:30:00+09:00",
+      "checked_in_at": null,
+      "cancel_reason": "일정 변경"
+    },
+    {
+      "reservation_id": "R-006",
+      "charger_id": "CH-07",
+      "employee_id": "E-1049",
+      "plate": "97버 2406",
+      "dept": "스마트팩토리팀",
+      "start_at": "2026-03-16T18:00:00+09:00",
+      "end_at": "2026-03-16T19:30:00+09:00",
+      "status": "NOSHOW",
+      "created_at": "2026-03-15T12:00:00+09:00",
+      "checked_in_at": null,
+      "cancel_reason": null
+    },
+    {
+      "reservation_id": "R-010",
+      "charger_id": "CH-05",
+      "employee_id": "E-1077",
+      "plate": "59나 4783",
+      "dept": "모빌리티서비스팀",
+      "start_at": "2026-03-17T06:30:00+09:00",
+      "end_at": "2026-03-17T08:00:00+09:00",
+      "status": "DONE",
+      "created_at": "2026-03-17T05:00:00+09:00",
+      "checked_in_at": "2026-03-17T06:33:00+09:00",
+      "cancel_reason": null
+    },
+    {
+      "reservation_id": "R-007",
+      "charger_id": "CH-01",
+      "employee_id": "E-1056",
+      "plate": "10나 1437",
+      "dept": "차량인프라팀",
+      "start_at": "2026-03-17T07:00:00+09:00",
+      "end_at": "2026-03-17T08:00:00+09:00",
+      "status": "DONE",
+      "created_at": "2026-03-17T01:00:00+09:00",
+      "checked_in_at": "2026-03-17T07:07:00+09:00",
+      "cancel_reason": null
+    },
+    {
+      "reservation_id": "R-008",
+      "charger_id": "CH-03",
+      "employee_id": "E-1063",
+      "plate": "88나 3578",
+      "dept": "커넥티드카개발팀",
+      "start_at": "2026-03-17T07:00:00+09:00",
+      "end_at": "2026-03-17T08:30:00+09:00",
+      "status": "DONE",
+      "created_at": "2026-03-17T00:30:00+09:00",
+      "checked_in_at": "2026-03-17T07:03:00+09:00",
+      "cancel_reason": null
+    },
+    {
+      "reservation_id": "R-009",
+      "charger_id": "CH-02",
+      "employee_id": "E-1070",
+      "plate": "46나 1715",
+      "dept": "ITS운영팀",
+      "start_at": "2026-03-17T08:00:00+09:00",
+      "end_at": "2026-03-17T09:00:00+09:00",
+      "status": "NOSHOW",
+      "created_at": "2026-03-17T06:00:00+09:00",
+      "checked_in_at": null,
+      "cancel_reason": null
+    },
+    {
+      "reservation_id": "R-015",
+      "charger_id": "CH-05",
+      "employee_id": "E-1112",
+      "plate": "99머 9648",
+      "dept": "모빌리티서비스팀",
+      "start_at": "2026-03-17T08:00:00+09:00",
+      "end_at": "2026-03-17T10:00:00+09:00",
+      "status": "IN_USE",
+      "created_at": "2026-03-16T17:00:00+09:00",
+      "checked_in_at": "2026-03-17T08:06:00+09:00",
+      "cancel_reason": null
+    },
+    {
+      "reservation_id": "R-013",
+      "charger_id": "CH-01",
+      "employee_id": "E-1098",
+      "plate": "60라 8071",
+      "dept": "커넥티드카개발팀",
+      "start_at": "2026-03-17T08:30:00+09:00",
+      "end_at": "2026-03-17T09:30:00+09:00",
+      "status": "IN_USE",
+      "created_at": "2026-03-16T02:00:00+09:00",
+      "checked_in_at": "2026-03-17T08:34:00+09:00",
+      "cancel_reason": null
+    },
+    {
+      "reservation_id": "R-014",
+      "charger_id": "CH-03",
+      "employee_id": "E-1105",
+      "plate": "29나 7213",
+      "dept": "ITS운영팀",
+      "start_at": "2026-03-17T08:30:00+09:00",
+      "end_at": "2026-03-17T10:00:00+09:00",
+      "status": "IN_USE",
+      "created_at": "2026-03-17T04:00:00+09:00",
+      "checked_in_at": "2026-03-17T08:32:00+09:00",
+      "cancel_reason": null
+    },
+    {
+      "reservation_id": "R-012",
+      "charger_id": "CH-06",
+      "employee_id": "E-1091",
+      "plate": "43서 1356",
+      "dept": "차량인프라팀",
+      "start_at": "2026-03-17T08:30:00+09:00",
+      "end_at": "2026-03-17T09:30:00+09:00",
+      "status": "CANCELED",
+      "created_at": "2026-03-16T22:30:00+09:00",
+      "checked_in_at": null,
+      "cancel_reason": "일정 변경"
+    },
+    {
+      "reservation_id": "R-011",
+      "charger_id": "CH-07",
+      "employee_id": "E-1084",
+      "plate": "71서 5472",
+      "dept": "스마트팩토리팀",
+      "start_at": "2026-03-17T08:30:00+09:00",
+      "end_at": "2026-03-17T10:00:00+09:00",
+      "status": "IN_USE",
+      "created_at": "2026-03-16T00:30:00+09:00",
+      "checked_in_at": "2026-03-17T08:32:00+09:00",
+      "cancel_reason": null
+    },
+    {
+      "reservation_id": "R-016",
+      "charger_id": "CH-02",
+      "employee_id": "E-1007",
+      "plate": "99버 6518",
+      "dept": "모빌리티서비스팀",
+      "start_at": "2026-03-17T10:00:00+09:00",
+      "end_at": "2026-03-17T11:00:00+09:00",
+      "status": "BOOKED",
+      "created_at": "2026-03-17T03:00:00+09:00",
+      "checked_in_at": null,
+      "cancel_reason": null
+    },
+    {
+      "reservation_id": "R-017",
+      "charger_id": "CH-06",
+      "employee_id": "E-1014",
+      "plate": "41라 3015",
+      "dept": "스마트팩토리팀",
+      "start_at": "2026-03-17T10:30:00+09:00",
+      "end_at": "2026-03-17T12:00:00+09:00",
+      "status": "BOOKED",
+      "created_at": "2026-03-17T02:30:00+09:00",
+      "checked_in_at": null,
+      "cancel_reason": null
+    },
+    {
+      "reservation_id": "R-018",
+      "charger_id": "CH-01",
+      "employee_id": "E-1021",
+      "plate": "50서 3434",
+      "dept": "차량인프라팀",
+      "start_at": "2026-03-17T11:00:00+09:00",
+      "end_at": "2026-03-17T12:00:00+09:00",
+      "status": "BOOKED",
+      "created_at": "2026-03-16T16:00:00+09:00",
+      "checked_in_at": null,
+      "cancel_reason": null
+    },
+    {
+      "reservation_id": "R-019",
+      "charger_id": "CH-07",
+      "employee_id": "E-1028",
+      "plate": "71다 1959",
+      "dept": "커넥티드카개발팀",
+      "start_at": "2026-03-17T13:00:00+09:00",
+      "end_at": "2026-03-17T15:00:00+09:00",
+      "status": "BOOKED",
+      "created_at": "2026-03-16T19:00:00+09:00",
+      "checked_in_at": null,
+      "cancel_reason": null
+    },
+    {
+      "reservation_id": "R-020",
+      "charger_id": "CH-02",
+      "employee_id": "E-1035",
+      "plate": "39버 7155",
+      "dept": "ITS운영팀",
+      "start_at": "2026-03-17T14:00:00+09:00",
+      "end_at": "2026-03-17T15:00:00+09:00",
+      "status": "BOOKED",
+      "created_at": "2026-03-17T05:00:00+09:00",
+      "checked_in_at": null,
+      "cancel_reason": null
+    },
+    {
+      "reservation_id": "R-021",
+      "charger_id": "CH-03",
+      "employee_id": "E-1042",
+      "plate": "73머 1977",
+      "dept": "모빌리티서비스팀",
+      "start_at": "2026-03-17T15:30:00+09:00",
+      "end_at": "2026-03-17T17:00:00+09:00",
+      "status": "BOOKED",
+      "created_at": "2026-03-17T05:30:00+09:00",
+      "checked_in_at": null,
+      "cancel_reason": null
+    },
+    {
+      "reservation_id": "R-022",
+      "charger_id": "CH-06",
+      "employee_id": "E-1049",
+      "plate": "97버 2406",
+      "dept": "스마트팩토리팀",
+      "start_at": "2026-03-17T17:00:00+09:00",
+      "end_at": "2026-03-17T18:00:00+09:00",
+      "status": "BOOKED",
+      "created_at": "2026-03-16T10:00:00+09:00",
+      "checked_in_at": null,
+      "cancel_reason": null
+    },
+    {
+      "reservation_id": "R-023",
+      "charger_id": "CH-01",
+      "employee_id": "E-1056",
+      "plate": "10나 1437",
+      "dept": "차량인프라팀",
+      "start_at": "2026-03-18T09:00:00+09:00",
+      "end_at": "2026-03-18T10:30:00+09:00",
+      "status": "BOOKED",
+      "created_at": "2026-03-17T17:00:00+09:00",
+      "checked_in_at": null,
+      "cancel_reason": null
+    },
+    {
+      "reservation_id": "R-024",
+      "charger_id": "CH-05",
+      "employee_id": "E-1063",
+      "plate": "88나 3578",
+      "dept": "커넥티드카개발팀",
+      "start_at": "2026-03-18T10:00:00+09:00",
+      "end_at": "2026-03-18T11:00:00+09:00",
+      "status": "BOOKED",
+      "created_at": "2026-03-17T14:00:00+09:00",
+      "checked_in_at": null,
+      "cancel_reason": null
+    }
+  ]
+}

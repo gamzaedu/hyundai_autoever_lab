@@ -1,0 +1,20 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash|Read|Edit|Write",
+        "hooks": [
+          { "type": "command", "command": "node .claude/hooks/guard.js" }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          { "type": "command", "command": "node .claude/hooks/worklog.js" },
+          { "type": "command", "command": "node .claude/hooks/regression.js" }
+        ]
+      }
+    ]
+  }
+}

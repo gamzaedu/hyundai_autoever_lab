@@ -1,0 +1,83 @@
+{
+  "note": "자가채점 전용 정답지. 구현 코드에서 이 파일을 참조하면 데이터 정확성 0점.",
+  "as_of": "2026-03-17T09:00:00+09:00",
+  "expected": {
+    "alarm_vehicle_count": 10,
+    "alarm_total_count": 12,
+    "critical_count": 7
+  },
+  "cases": [
+    {
+      "vehicle_id": "VH-0002",
+      "alarms": [
+        "AL-01"
+      ],
+      "top_severity": "CRITICAL"
+    },
+    {
+      "vehicle_id": "VH-0003",
+      "alarms": [
+        "AL-03"
+      ],
+      "top_severity": "CRITICAL"
+    },
+    {
+      "vehicle_id": "VH-0006",
+      "alarms": [
+        "AL-02"
+      ],
+      "top_severity": "WARNING"
+    },
+    {
+      "vehicle_id": "VH-0008",
+      "alarms": [
+        "AL-02"
+      ],
+      "top_severity": "WARNING"
+    },
+    {
+      "vehicle_id": "VH-0015",
+      "alarms": [
+        "AL-02"
+      ],
+      "top_severity": "WARNING"
+    },
+    {
+      "vehicle_id": "VH-0020",
+      "alarms": [
+        "AL-03"
+      ],
+      "top_severity": "CRITICAL"
+    },
+    {
+      "vehicle_id": "VH-0021",
+      "alarms": [
+        "AL-02",
+        "AL-03"
+      ],
+      "top_severity": "CRITICAL"
+    },
+    {
+      "vehicle_id": "VH-0024",
+      "alarms": [
+        "AL-01",
+        "AL-02"
+      ],
+      "top_severity": "CRITICAL"
+    },
+    {
+      "vehicle_id": "VH-0026",
+      "alarms": [
+        "AL-01"
+      ],
+      "top_severity": "CRITICAL"
+    },
+    {
+      "vehicle_id": "VH-0029",
+      "alarms": [
+        "AL-01"
+      ],
+      "top_severity": "CRITICAL"
+    }
+  ]
+}

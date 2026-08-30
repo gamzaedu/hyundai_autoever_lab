@@ -1,0 +1,1135 @@
+{
+  "as_of": "2026-03-17T09:00:00+09:00",
+  "trips": {
+    "VH-0001": [
+      {
+        "started_at": "2026-03-17T07:02:00+09:00",
+        "ended_at": "2026-03-17T07:41:00+09:00",
+        "distance_km": 42.6,
+        "avg_speed_kph": 66,
+        "energy_kwh": 8.91
+      },
+      {
+        "started_at": "2026-03-16T09:14:00+09:00",
+        "ended_at": "2026-03-16T09:56:00+09:00",
+        "distance_km": 21.9,
+        "avg_speed_kph": 31,
+        "energy_kwh": 4.18
+      },
+      {
+        "started_at": "2026-03-13T09:13:00+09:00",
+        "ended_at": "2026-03-13T09:41:00+09:00",
+        "distance_km": 30.8,
+        "avg_speed_kph": 66,
+        "energy_kwh": 6.03
+      },
+      {
+        "started_at": "2026-03-12T11:24:00+09:00",
+        "ended_at": "2026-03-12T11:33:00+09:00",
+        "distance_km": 10.5,
+        "avg_speed_kph": 70,
+        "energy_kwh": 2.02
+      },
+      {
+        "started_at": "2026-03-11T12:27:00+09:00",
+        "ended_at": "2026-03-11T13:10:00+09:00",
+        "distance_km": 31.3,
+        "avg_speed_kph": 44,
+        "energy_kwh": 7.05
+      }
+    ],
+    "VH-0002": [
+      {
+        "started_at": "2026-03-17T08:04:00+09:00",
+        "ended_at": "2026-03-17T08:32:00+09:00",
+        "distance_km": 12.9,
+        "avg_speed_kph": 28,
+        "energy_kwh": 2.73
+      },
+      {
+        "started_at": "2026-03-16T10:26:00+09:00",
+        "ended_at": "2026-03-16T10:41:00+09:00",
+        "distance_km": 15.6,
+        "avg_speed_kph": 62,
+        "energy_kwh": 2.78
+      },
+      {
+        "started_at": "2026-03-13T13:36:00+09:00",
+        "ended_at": "2026-03-13T14:30:00+09:00",
+        "distance_km": 41.3,
+        "avg_speed_kph": 46,
+        "energy_kwh": 7.64
+      },
+      {
+        "started_at": "2026-03-12T10:46:00+09:00",
+        "ended_at": "2026-03-12T11:20:00+09:00",
+        "distance_km": 19.7,
+        "avg_speed_kph": 35,
+        "energy_kwh": 3.41
+      },
+      {
+        "started_at": "2026-03-11T16:58:00+09:00",
+        "ended_at": "2026-03-11T17:30:00+09:00",
+        "distance_km": 24.7,
+        "avg_speed_kph": 46,
+        "energy_kwh": 5.72
+      }
+    ],
+    "VH-0003": [
+      {
+        "started_at": "2026-03-17T07:28:00+09:00",
+        "ended_at": "2026-03-17T08:14:00+09:00",
+        "distance_km": 26.8,
+        "avg_speed_kph": 35,
+        "fuel_l": 3.1
+      },
+      {
+        "started_at": "2026-03-16T15:14:00+09:00",
+        "ended_at": "2026-03-16T15:54:00+09:00",
+        "distance_km": 35.6,
+        "avg_speed_kph": 53,
+        "fuel_l": 3.41
+      },
+      {
+        "started_at": "2026-03-13T11:20:00+09:00",
+        "ended_at": "2026-03-13T11:41:00+09:00",
+        "distance_km": 12.0,
+        "avg_speed_kph": 34,
+        "fuel_l": 1.36
+      },
+      {
+        "started_at": "2026-03-12T15:07:00+09:00",
+        "ended_at": "2026-03-12T15:39:00+09:00",
+        "distance_km": 16.9,
+        "avg_speed_kph": 32,
+        "fuel_l": 1.92
+      },
+      {
+        "started_at": "2026-03-11T09:52:00+09:00",
+        "ended_at": "2026-03-11T10:54:00+09:00",
+        "distance_km": 69.1,
+        "avg_speed_kph": 67,
+        "fuel_l": 7.25
+      }
+    ],
+    "VH-0004": [
+      {
+        "started_at": "2026-03-17T07:00:00+09:00",
+        "ended_at": "2026-03-17T07:45:00+09:00",
+        "distance_km": 46.2,
+        "avg_speed_kph": 62,
+        "energy_kwh": 8.46
+      },
+      {
+        "started_at": "2026-03-16T11:39:00+09:00",
+        "ended_at": "2026-03-16T12:45:00+09:00",
+        "distance_km": 45.0,
+        "avg_speed_kph": 41,
+        "energy_kwh": 10.3
+      },
+      {
+        "started_at": "2026-03-13T12:59:00+09:00",
+        "ended_at": "2026-03-13T13:32:00+09:00",
+        "distance_km": 37.0,
+        "avg_speed_kph": 67,
+        "energy_kwh": 7.17
+      },
+      {
+        "started_at": "2026-03-12T09:51:00+09:00",
+        "ended_at": "2026-03-12T10:58:00+09:00",
+        "distance_km": 62.3,
+        "avg_speed_kph": 56,
+        "energy_kwh": 14.11
+      },
+      {
+        "started_at": "2026-03-11T16:08:00+09:00",
+        "ended_at": "2026-03-11T17:12:00+09:00",
+        "distance_km": 32.1,
+        "avg_speed_kph": 30,
+        "energy_kwh": 6.65
+      }
+    ],
+    "VH-0005": [
+      {
+        "started_at": "2026-03-17T07:01:00+09:00",
+        "ended_at": "2026-03-17T07:34:00+09:00",
+        "distance_km": 30.6,
+        "avg_speed_kph": 56,
+        "energy_kwh": 7.08
+      },
+      {
+        "started_at": "2026-03-16T12:27:00+09:00",
+        "ended_at": "2026-03-16T13:55:00+09:00",
+        "distance_km": 60.2,
+        "avg_speed_kph": 41,
+        "energy_kwh": 11.49
+      },
+      {
+        "started_at": "2026-03-13T10:31:00+09:00",
+        "ended_at": "2026-03-13T11:32:00+09:00",
+        "distance_km": 34.6,
+        "avg_speed_kph": 34,
+        "energy_kwh": 7.04
+      },
+      {
+        "started_at": "2026-03-12T15:19:00+09:00",
+        "ended_at": "2026-03-12T15:34:00+09:00",
+        "distance_km": 12.4,
+        "avg_speed_kph": 50,
+        "energy_kwh": 2.15
+      },
+      {
+        "started_at": "2026-03-11T10:43:00+09:00",
+        "ended_at": "2026-03-11T11:56:00+09:00",
+        "distance_km": 42.5,
+        "avg_speed_kph": 35,
+        "energy_kwh": 9.68
+      }
+    ],
+    "VH-0006": [
+      {
+        "started_at": "2026-03-17T07:25:00+09:00",
+        "ended_at": "2026-03-17T08:33:00+09:00",
+        "distance_km": 71.1,
+        "avg_speed_kph": 63,
+        "fuel_l": 9.13
+      },
+      {
+        "started_at": "2026-03-16T11:15:00+09:00",
+        "ended_at": "2026-03-16T12:32:00+09:00",
+        "distance_km": 39.6,
+        "avg_speed_kph": 31,
+        "fuel_l": 3.92
+      },
+      {
+        "started_at": "2026-03-13T14:01:00+09:00",
+        "ended_at": "2026-03-13T14:59:00+09:00",
+        "distance_km": 31.0,
+        "avg_speed_kph": 32,
+        "fuel_l": 3.65
+      },
+      {
+        "started_at": "2026-03-12T10:59:00+09:00",
+        "ended_at": "2026-03-12T12:05:00+09:00",
+        "distance_km": 61.9,
+        "avg_speed_kph": 56,
+        "fuel_l": 7.49
+      },
+      {
+        "started_at": "2026-03-11T15:59:00+09:00",
+        "ended_at": "2026-03-11T16:20:00+09:00",
+        "distance_km": 22.4,
+        "avg_speed_kph": 64,
+        "fuel_l": 2.7
+      }
+    ],
+    "VH-0007": [
+      {
+        "started_at": "2026-03-17T07:08:00+09:00",
+        "ended_at": "2026-03-17T07:47:00+09:00",
+        "distance_km": 26.1,
+        "avg_speed_kph": 40,
+        "energy_kwh": 4.62
+      },
+      {
+        "started_at": "2026-03-16T16:04:00+09:00",
+        "ended_at": "2026-03-16T16:34:00+09:00",
+        "distance_km": 33.6,
+        "avg_speed_kph": 67,
+        "energy_kwh": 6.31
+      },
+      {
+        "started_at": "2026-03-13T09:54:00+09:00",
+        "ended_at": "2026-03-13T10:38:00+09:00",
+        "distance_km": 36.9,
+        "avg_speed_kph": 50,
+        "energy_kwh": 7.27
+      },
+      {
+        "started_at": "2026-03-12T09:37:00+09:00",
+        "ended_at": "2026-03-12T10:06:00+09:00",
+        "distance_km": 18.8,
+        "avg_speed_kph": 39,
+        "energy_kwh": 4.38
+      },
+      {
+        "started_at": "2026-03-11T15:48:00+09:00",
+        "ended_at": "2026-03-11T16:40:00+09:00",
+        "distance_km": 47.7,
+        "avg_speed_kph": 55,
+        "energy_kwh": 10.22
+      }
+    ],
+    "VH-0008": [
+      {
+        "started_at": "2026-03-17T08:09:00+09:00",
+        "ended_at": "2026-03-17T08:29:00+09:00",
+        "distance_km": 12.4,
+        "avg_speed_kph": 37,
+        "energy_kwh": 2.21
+      },
+      {
+        "started_at": "2026-03-16T08:55:00+09:00",
+        "ended_at": "2026-03-16T10:40:00+09:00",
+        "distance_km": 64.1,
+        "avg_speed_kph": 37,
+        "energy_kwh": 11.83
+      },
+      {
+        "started_at": "2026-03-13T15:04:00+09:00",
+        "ended_at": "2026-03-13T15:27:00+09:00",
+        "distance_km": 20.2,
+        "avg_speed_kph": 53,
+        "energy_kwh": 4.22
+      },
+      {
+        "started_at": "2026-03-12T14:07:00+09:00",
+        "ended_at": "2026-03-12T14:31:00+09:00",
+        "distance_km": 14.5,
+        "avg_speed_kph": 36,
+        "energy_kwh": 2.57
+      },
+      {
+        "started_at": "2026-03-11T10:29:00+09:00",
+        "ended_at": "2026-03-11T10:59:00+09:00",
+        "distance_km": 28.2,
+        "avg_speed_kph": 56,
+        "energy_kwh": 6.19
+      }
+    ],
+    "VH-0009": [
+      {
+        "started_at": "2026-03-17T08:20:00+09:00",
+        "ended_at": "2026-03-17T08:49:00+09:00",
+        "distance_km": 22.0,
+        "avg_speed_kph": 46,
+        "fuel_l": 1.33,
+        "energy_kwh": 1.46
+      },
+      {
+        "started_at": "2026-03-16T15:33:00+09:00",
+        "ended_at": "2026-03-16T15:59:00+09:00",
+        "distance_km": 16.3,
+        "avg_speed_kph": 38,
+        "fuel_l": 1.23,
+        "energy_kwh": 1.11
+      },
+      {
+        "started_at": "2026-03-13T15:27:00+09:00",
+        "ended_at": "2026-03-13T16:39:00+09:00",
+        "distance_km": 46.8,
+        "avg_speed_kph": 39,
+        "fuel_l": 3.32,
+        "energy_kwh": 2.08
+      },
+      {
+        "started_at": "2026-03-12T12:05:00+09:00",
+        "ended_at": "2026-03-12T12:22:00+09:00",
+        "distance_km": 12.1,
+        "avg_speed_kph": 43,
+        "fuel_l": 0.77,
+        "energy_kwh": 0.92
+      },
+      {
+        "started_at": "2026-03-11T09:30:00+09:00",
+        "ended_at": "2026-03-11T09:49:00+09:00",
+        "distance_km": 20.7,
+        "avg_speed_kph": 65,
+        "fuel_l": 1.25,
+        "energy_kwh": 1.56
+      }
+    ],
+    "VH-0010": [
+      {
+        "started_at": "2026-03-17T08:02:00+09:00",
+        "ended_at": "2026-03-17T08:48:00+09:00",
+        "distance_km": 27.4,
+        "avg_speed_kph": 36,
+        "energy_kwh": 5.56
+      },
+      {
+        "started_at": "2026-03-16T13:09:00+09:00",
+        "ended_at": "2026-03-16T13:54:00+09:00",
+        "distance_km": 51.4,
+        "avg_speed_kph": 69,
+        "energy_kwh": 10.49
+      },
+      {
+        "started_at": "2026-03-13T15:59:00+09:00",
+        "ended_at": "2026-03-13T16:43:00+09:00",
+        "distance_km": 32.5,
+        "avg_speed_kph": 44,
+        "energy_kwh": 7.15
+      },
+      {
+        "started_at": "2026-03-12T14:56:00+09:00",
+        "ended_at": "2026-03-12T16:00:00+09:00",
+        "distance_km": 64.3,
+        "avg_speed_kph": 60,
+        "energy_kwh": 14.01
+      },
+      {
+        "started_at": "2026-03-11T15:18:00+09:00",
+        "ended_at": "2026-03-11T15:27:00+09:00",
+        "distance_km": 10.4,
+        "avg_speed_kph": 69,
+        "energy_kwh": 1.82
+      }
+    ],
+    "VH-0011": [
+      {
+        "started_at": "2026-03-17T08:09:00+09:00",
+        "ended_at": "2026-03-17T08:47:00+09:00",
+        "distance_km": 39.1,
+        "avg_speed_kph": 62,
+        "energy_kwh": 6.92
+      },
+      {
+        "started_at": "2026-03-16T15:23:00+09:00",
+        "ended_at": "2026-03-16T16:51:00+09:00",
+        "distance_km": 63.1,
+        "avg_speed_kph": 43,
+        "energy_kwh": 13.44
+      },
+      {
+        "started_at": "2026-03-13T16:14:00+09:00",
+        "ended_at": "2026-03-13T17:18:00+09:00",
+        "distance_km": 49.2,
+        "avg_speed_kph": 46,
+        "energy_kwh": 11.47
+      },
+      {
+        "started_at": "2026-03-12T08:48:00+09:00",
+        "ended_at": "2026-03-12T08:58:00+09:00",
+        "distance_km": 8.8,
+        "avg_speed_kph": 53,
+        "energy_kwh": 1.88
+      },
+      {
+        "started_at": "2026-03-11T15:40:00+09:00",
+        "ended_at": "2026-03-11T16:16:00+09:00",
+        "distance_km": 24.7,
+        "avg_speed_kph": 41,
+        "energy_kwh": 5.42
+      }
+    ],
+    "VH-0012": [
+      {
+        "started_at": "2026-03-17T07:30:00+09:00",
+        "ended_at": "2026-03-17T08:47:00+09:00",
+        "distance_km": 43.5,
+        "avg_speed_kph": 34,
+        "fuel_l": 3.01,
+        "energy_kwh": 2.31
+      },
+      {
+        "started_at": "2026-03-16T12:53:00+09:00",
+        "ended_at": "2026-03-16T14:38:00+09:00",
+        "distance_km": 72.4,
+        "avg_speed_kph": 41,
+        "fuel_l": 4.43,
+        "energy_kwh": 4.7
+      },
+      {
+        "started_at": "2026-03-13T11:17:00+09:00",
+        "ended_at": "2026-03-13T12:57:00+09:00",
+        "distance_km": 78.5,
+        "avg_speed_kph": 47,
+        "fuel_l": 5.27,
+        "energy_kwh": 4.01
+      },
+      {
+        "started_at": "2026-03-12T16:22:00+09:00",
+        "ended_at": "2026-03-12T16:54:00+09:00",
+        "distance_km": 28.8,
+        "avg_speed_kph": 54,
+        "fuel_l": 2.08,
+        "energy_kwh": 1.73
+      },
+      {
+        "started_at": "2026-03-11T11:58:00+09:00",
+        "ended_at": "2026-03-11T13:11:00+09:00",
+        "distance_km": 46.1,
+        "avg_speed_kph": 38,
+        "fuel_l": 2.96,
+        "energy_kwh": 2.93
+      }
+    ],
+    "VH-0013": [
+      {
+        "started_at": "2026-03-17T07:06:00+09:00",
+        "ended_at": "2026-03-17T07:29:00+09:00",
+        "distance_km": 20.7,
+        "avg_speed_kph": 54,
+        "energy_kwh": 3.72
+      },
+      {
+        "started_at": "2026-03-16T14:56:00+09:00",
+        "ended_at": "2026-03-16T15:36:00+09:00",
+        "distance_km": 32.7,
+        "avg_speed_kph": 49,
+        "energy_kwh": 5.9
+      },
+      {
+        "started_at": "2026-03-13T12:52:00+09:00",
+        "ended_at": "2026-03-13T13:26:00+09:00",
+        "distance_km": 36.0,
+        "avg_speed_kph": 64,
+        "energy_kwh": 7.32
+      },
+      {
+        "started_at": "2026-03-12T14:52:00+09:00",
+        "ended_at": "2026-03-12T15:25:00+09:00",
+        "distance_km": 35.0,
+        "avg_speed_kph": 64,
+        "energy_kwh": 6.86
+      },
+      {
+        "started_at": "2026-03-11T16:10:00+09:00",
+        "ended_at": "2026-03-11T16:53:00+09:00",
+        "distance_km": 32.2,
+        "avg_speed_kph": 45,
+        "energy_kwh": 6.13
+      }
+    ],
+    "VH-0014": [
+      {
+        "started_at": "2026-03-17T08:14:00+09:00",
+        "ended_at": "2026-03-17T08:46:00+09:00",
+        "distance_km": 25.8,
+        "avg_speed_kph": 48,
+        "energy_kwh": 5.33
+      },
+      {
+        "started_at": "2026-03-16T12:01:00+09:00",
+        "ended_at": "2026-03-16T12:20:00+09:00",
+        "distance_km": 15.3,
+        "avg_speed_kph": 48,
+        "energy_kwh": 3.13
+      },
+      {
+        "started_at": "2026-03-13T08:41:00+09:00",
+        "ended_at": "2026-03-13T09:54:00+09:00",
+        "distance_km": 71.7,
+        "avg_speed_kph": 59,
+        "energy_kwh": 13.85
+      },
+      {
+        "started_at": "2026-03-12T10:38:00+09:00",
+        "ended_at": "2026-03-12T10:59:00+09:00",
+        "distance_km": 17.2,
+        "avg_speed_kph": 49,
+        "energy_kwh": 3.09
+      },
+      {
+        "started_at": "2026-03-11T12:17:00+09:00",
+        "ended_at": "2026-03-11T13:04:00+09:00",
+        "distance_km": 51.0,
+        "avg_speed_kph": 65,
+        "energy_kwh": 11.38
+      }
+    ],
+    "VH-0015": [
+      {
+        "started_at": "2026-03-17T07:40:00+09:00",
+        "ended_at": "2026-03-17T08:38:00+09:00",
+        "distance_km": 30.8,
+        "avg_speed_kph": 32,
+        "energy_kwh": 5.88
+      },
+      {
+        "started_at": "2026-03-16T09:36:00+09:00",
+        "ended_at": "2026-03-16T11:21:00+09:00",
+        "distance_km": 60.4,
+        "avg_speed_kph": 35,
+        "energy_kwh": 11.2
+      },
+      {
+        "started_at": "2026-03-13T15:18:00+09:00",
+        "ended_at": "2026-03-13T16:36:00+09:00",
+        "distance_km": 43.1,
+        "avg_speed_kph": 33,
+        "energy_kwh": 8.22
+      },
+      {
+        "started_at": "2026-03-12T15:02:00+09:00",
+        "ended_at": "2026-03-12T16:19:00+09:00",
+        "distance_km": 69.5,
+        "avg_speed_kph": 54,
+        "energy_kwh": 12.22
+      },
+      {
+        "started_at": "2026-03-11T12:11:00+09:00",
+        "ended_at": "2026-03-11T13:02:00+09:00",
+        "distance_km": 56.4,
+        "avg_speed_kph": 66,
+        "energy_kwh": 10.45
+      }
+    ],
+    "VH-0016": [
+      {
+        "started_at": "2026-03-17T07:32:00+09:00",
+        "ended_at": "2026-03-17T08:24:00+09:00",
+        "distance_km": 48.5,
+        "avg_speed_kph": 56,
+        "fuel_l": 4.39
+      },
+      {
+        "started_at": "2026-03-16T13:33:00+09:00",
+        "ended_at": "2026-03-16T13:51:00+09:00",
+        "distance_km": 9.7,
+        "avg_speed_kph": 32,
+        "fuel_l": 1.21
+      },
+      {
+        "started_at": "2026-03-13T16:18:00+09:00",
+        "ended_at": "2026-03-13T16:53:00+09:00",
+        "distance_km": 34.4,
+        "avg_speed_kph": 59,
+        "fuel_l": 3.66
+      },
+      {
+        "started_at": "2026-03-12T09:38:00+09:00",
+        "ended_at": "2026-03-12T10:13:00+09:00",
+        "distance_km": 27.3,
+        "avg_speed_kph": 47,
+        "fuel_l": 3.36
+      },
+      {
+        "started_at": "2026-03-11T11:29:00+09:00",
+        "ended_at": "2026-03-11T12:38:00+09:00",
+        "distance_km": 47.1,
+        "avg_speed_kph": 41,
+        "fuel_l": 5.65
+      }
+    ],
+    "VH-0017": [
+      {
+        "started_at": "2026-03-17T07:14:00+09:00",
+        "ended_at": "2026-03-17T08:51:00+09:00",
+        "distance_km": 64.6,
+        "avg_speed_kph": 40,
+        "energy_kwh": 13.6
+      },
+      {
+        "started_at": "2026-03-16T12:51:00+09:00",
+        "ended_at": "2026-03-16T13:41:00+09:00",
+        "distance_km": 40.3,
+        "avg_speed_kph": 48,
+        "energy_kwh": 8.89
+      },
+      {
+        "started_at": "2026-03-13T15:44:00+09:00",
+        "ended_at": "2026-03-13T16:18:00+09:00",
+        "distance_km": 18.2,
+        "avg_speed_kph": 32,
+        "energy_kwh": 3.63
+      },
+      {
+        "started_at": "2026-03-12T15:38:00+09:00",
+        "ended_at": "2026-03-12T16:22:00+09:00",
+        "distance_km": 45.2,
+        "avg_speed_kph": 62,
+        "energy_kwh": 7.87
+      },
+      {
+        "started_at": "2026-03-11T16:02:00+09:00",
+        "ended_at": "2026-03-11T16:53:00+09:00",
+        "distance_km": 36.5,
+        "avg_speed_kph": 43,
+        "energy_kwh": 7.07
+      }
+    ],
+    "VH-0018": [
+      {
+        "started_at": "2026-03-17T07:08:00+09:00",
+        "ended_at": "2026-03-17T08:06:00+09:00",
+        "distance_km": 60.1,
+        "avg_speed_kph": 62,
+        "energy_kwh": 14.16
+      },
+      {
+        "started_at": "2026-03-16T14:13:00+09:00",
+        "ended_at": "2026-03-16T14:48:00+09:00",
+        "distance_km": 39.4,
+        "avg_speed_kph": 68,
+        "energy_kwh": 7.86
+      },
+      {
+        "started_at": "2026-03-13T12:12:00+09:00",
+        "ended_at": "2026-03-13T12:49:00+09:00",
+        "distance_km": 21.8,
+        "avg_speed_kph": 35,
+        "energy_kwh": 4.31
+      },
+      {
+        "started_at": "2026-03-12T10:30:00+09:00",
+        "ended_at": "2026-03-12T11:02:00+09:00",
+        "distance_km": 23.1,
+        "avg_speed_kph": 43,
+        "energy_kwh": 5.43
+      },
+      {
+        "started_at": "2026-03-11T12:12:00+09:00",
+        "ended_at": "2026-03-11T12:55:00+09:00",
+        "distance_km": 23.1,
+        "avg_speed_kph": 32,
+        "energy_kwh": 4.42
+      }
+    ],
+    "VH-0019": [
+      {
+        "started_at": "2026-03-17T07:31:00+09:00",
+        "ended_at": "2026-03-17T08:09:00+09:00",
+        "distance_km": 23.3,
+        "avg_speed_kph": 37,
+        "fuel_l": 1.39,
+        "energy_kwh": 1.08
+      },
+      {
+        "started_at": "2026-03-16T15:36:00+09:00",
+        "ended_at": "2026-03-16T17:21:00+09:00",
+        "distance_km": 77.4,
+        "avg_speed_kph": 44,
+        "fuel_l": 4.97,
+        "energy_kwh": 4.08
+      },
+      {
+        "started_at": "2026-03-13T13:29:00+09:00",
+        "ended_at": "2026-03-13T13:45:00+09:00",
+        "distance_km": 18.3,
+        "avg_speed_kph": 69,
+        "fuel_l": 1.25,
+        "energy_kwh": 0.91
+      },
+      {
+        "started_at": "2026-03-12T12:24:00+09:00",
+        "ended_at": "2026-03-12T13:27:00+09:00",
+        "distance_km": 56.9,
+        "avg_speed_kph": 54,
+        "fuel_l": 4.28,
+        "energy_kwh": 3.79
+      },
+      {
+        "started_at": "2026-03-11T11:40:00+09:00",
+        "ended_at": "2026-03-11T12:48:00+09:00",
+        "distance_km": 34.2,
+        "avg_speed_kph": 30,
+        "fuel_l": 2.36,
+        "energy_kwh": 1.74
+      }
+    ],
+    "VH-0020": [
+      {
+        "started_at": "2026-03-17T07:22:00+09:00",
+        "ended_at": "2026-03-17T08:06:00+09:00",
+        "distance_km": 49.1,
+        "avg_speed_kph": 67,
+        "energy_kwh": 9.31
+      },
+      {
+        "started_at": "2026-03-16T16:03:00+09:00",
+        "ended_at": "2026-03-16T16:18:00+09:00",
+        "distance_km": 14.4,
+        "avg_speed_kph": 58,
+        "energy_kwh": 2.9
+      },
+      {
+        "started_at": "2026-03-13T13:08:00+09:00",
+        "ended_at": "2026-03-13T13:38:00+09:00",
+        "distance_km": 26.7,
+        "avg_speed_kph": 53,
+        "energy_kwh": 6.0
+      },
+      {
+        "started_at": "2026-03-12T12:24:00+09:00",
+        "ended_at": "2026-03-12T13:30:00+09:00",
+        "distance_km": 36.5,
+        "avg_speed_kph": 33,
+        "energy_kwh": 6.67
+      },
+      {
+        "started_at": "2026-03-11T15:29:00+09:00",
+        "ended_at": "2026-03-11T15:52:00+09:00",
+        "distance_km": 15.9,
+        "avg_speed_kph": 41,
+        "energy_kwh": 3.02
+      }
+    ],
+    "VH-0021": [
+      {
+        "started_at": "2026-03-17T08:20:00+09:00",
+        "ended_at": "2026-03-17T08:32:00+09:00",
+        "distance_km": 10.7,
+        "avg_speed_kph": 53,
+        "energy_kwh": 2.11
+      },
+      {
+        "started_at": "2026-03-16T15:59:00+09:00",
+        "ended_at": "2026-03-16T16:32:00+09:00",
+        "distance_km": 23.9,
+        "avg_speed_kph": 43,
+        "energy_kwh": 4.58
+      },
+      {
+        "started_at": "2026-03-13T12:32:00+09:00",
+        "ended_at": "2026-03-13T13:29:00+09:00",
+        "distance_km": 52.9,
+        "avg_speed_kph": 56,
+        "energy_kwh": 10.33
+      },
+      {
+        "started_at": "2026-03-12T10:48:00+09:00",
+        "ended_at": "2026-03-12T11:41:00+09:00",
+        "distance_km": 42.1,
+        "avg_speed_kph": 48,
+        "energy_kwh": 9.01
+      },
+      {
+        "started_at": "2026-03-11T11:15:00+09:00",
+        "ended_at": "2026-03-11T11:24:00+09:00",
+        "distance_km": 5.0,
+        "avg_speed_kph": 33,
+        "energy_kwh": 1.12
+      }
+    ],
+    "VH-0022": [
+      {
+        "started_at": "2026-03-17T07:36:00+09:00",
+        "ended_at": "2026-03-17T07:51:00+09:00",
+        "distance_km": 15.1,
+        "avg_speed_kph": 60,
+        "fuel_l": 1.02,
+        "energy_kwh": 0.79
+      },
+      {
+        "started_at": "2026-03-16T12:55:00+09:00",
+        "ended_at": "2026-03-16T14:26:00+09:00",
+        "distance_km": 47.2,
+        "avg_speed_kph": 31,
+        "fuel_l": 2.93,
+        "energy_kwh": 3.74
+      },
+      {
+        "started_at": "2026-03-13T14:20:00+09:00",
+        "ended_at": "2026-03-13T14:50:00+09:00",
+        "distance_km": 26.6,
+        "avg_speed_kph": 53,
+        "fuel_l": 1.71,
+        "energy_kwh": 1.93
+      },
+      {
+        "started_at": "2026-03-12T13:46:00+09:00",
+        "ended_at": "2026-03-12T14:03:00+09:00",
+        "distance_km": 15.6,
+        "avg_speed_kph": 55,
+        "fuel_l": 1.0,
+        "energy_kwh": 0.91
+      },
+      {
+        "started_at": "2026-03-11T09:08:00+09:00",
+        "ended_at": "2026-03-11T09:22:00+09:00",
+        "distance_km": 13.8,
+        "avg_speed_kph": 59,
+        "fuel_l": 0.85,
+        "energy_kwh": 1.09
+      }
+    ],
+    "VH-0023": [
+      {
+        "started_at": "2026-03-17T08:29:00+09:00",
+        "ended_at": "2026-03-17T08:37:00+09:00",
+        "distance_km": 7.0,
+        "avg_speed_kph": 52,
+        "fuel_l": 0.61
+      },
+      {
+        "started_at": "2026-03-16T11:13:00+09:00",
+        "ended_at": "2026-03-16T11:53:00+09:00",
+        "distance_km": 34.4,
+        "avg_speed_kph": 52,
+        "fuel_l": 3.46
+      },
+      {
+        "started_at": "2026-03-13T13:54:00+09:00",
+        "ended_at": "2026-03-13T14:25:00+09:00",
+        "distance_km": 25.0,
+        "avg_speed_kph": 48,
+        "fuel_l": 3.16
+      },
+      {
+        "started_at": "2026-03-12T14:03:00+09:00",
+        "ended_at": "2026-03-12T15:07:00+09:00",
+        "distance_km": 37.5,
+        "avg_speed_kph": 35,
+        "fuel_l": 4.3
+      },
+      {
+        "started_at": "2026-03-11T14:37:00+09:00",
+        "ended_at": "2026-03-11T15:34:00+09:00",
+        "distance_km": 58.5,
+        "avg_speed_kph": 62,
+        "fuel_l": 6.09
+      }
+    ],
+    "VH-0024": [
+      {
+        "started_at": "2026-03-17T07:23:00+09:00",
+        "ended_at": "2026-03-17T07:59:00+09:00",
+        "distance_km": 34.5,
+        "avg_speed_kph": 58,
+        "energy_kwh": 6.43
+      },
+      {
+        "started_at": "2026-03-16T10:12:00+09:00",
+        "ended_at": "2026-03-16T11:27:00+09:00",
+        "distance_km": 59.0,
+        "avg_speed_kph": 47,
+        "energy_kwh": 10.5
+      },
+      {
+        "started_at": "2026-03-13T14:57:00+09:00",
+        "ended_at": "2026-03-13T15:48:00+09:00",
+        "distance_km": 45.6,
+        "avg_speed_kph": 54,
+        "energy_kwh": 8.53
+      },
+      {
+        "started_at": "2026-03-12T13:02:00+09:00",
+        "ended_at": "2026-03-12T13:52:00+09:00",
+        "distance_km": 36.5,
+        "avg_speed_kph": 44,
+        "energy_kwh": 7.95
+      },
+      {
+        "started_at": "2026-03-11T14:32:00+09:00",
+        "ended_at": "2026-03-11T14:43:00+09:00",
+        "distance_km": 10.8,
+        "avg_speed_kph": 59,
+        "energy_kwh": 2.22
+      }
+    ],
+    "VH-0025": [
+      {
+        "started_at": "2026-03-17T07:10:00+09:00",
+        "ended_at": "2026-03-17T07:35:00+09:00",
+        "distance_km": 25.9,
+        "avg_speed_kph": 62,
+        "energy_kwh": 4.95
+      },
+      {
+        "started_at": "2026-03-16T11:27:00+09:00",
+        "ended_at": "2026-03-16T11:35:00+09:00",
+        "distance_km": 7.4,
+        "avg_speed_kph": 56,
+        "energy_kwh": 1.47
+      },
+      {
+        "started_at": "2026-03-13T14:54:00+09:00",
+        "ended_at": "2026-03-13T15:17:00+09:00",
+        "distance_km": 19.5,
+        "avg_speed_kph": 51,
+        "energy_kwh": 3.81
+      },
+      {
+        "started_at": "2026-03-12T11:45:00+09:00",
+        "ended_at": "2026-03-12T13:05:00+09:00",
+        "distance_km": 42.4,
+        "avg_speed_kph": 32,
+        "energy_kwh": 8.76
+      },
+      {
+        "started_at": "2026-03-11T09:30:00+09:00",
+        "ended_at": "2026-03-11T10:38:00+09:00",
+        "distance_km": 34.1,
+        "avg_speed_kph": 30,
+        "energy_kwh": 6.28
+      }
+    ],
+    "VH-0026": [
+      {
+        "started_at": "2026-03-17T07:40:00+09:00",
+        "ended_at": "2026-03-17T08:19:00+09:00",
+        "distance_km": 22.9,
+        "avg_speed_kph": 35,
+        "energy_kwh": 4.58
+      },
+      {
+        "started_at": "2026-03-16T10:15:00+09:00",
+        "ended_at": "2026-03-16T10:28:00+09:00",
+        "distance_km": 12.6,
+        "avg_speed_kph": 58,
+        "energy_kwh": 2.24
+      },
+      {
+        "started_at": "2026-03-13T13:48:00+09:00",
+        "ended_at": "2026-03-13T14:27:00+09:00",
+        "distance_km": 42.8,
+        "avg_speed_kph": 66,
+        "energy_kwh": 8.41
+      },
+      {
+        "started_at": "2026-03-12T13:10:00+09:00",
+        "ended_at": "2026-03-12T14:03:00+09:00",
+        "distance_km": 56.4,
+        "avg_speed_kph": 64,
+        "energy_kwh": 10.17
+      },
+      {
+        "started_at": "2026-03-11T16:01:00+09:00",
+        "ended_at": "2026-03-11T16:13:00+09:00",
+        "distance_km": 11.7,
+        "avg_speed_kph": 58,
+        "energy_kwh": 2.55
+      }
+    ],
+    "VH-0027": [
+      {
+        "started_at": "2026-03-17T07:59:00+09:00",
+        "ended_at": "2026-03-17T08:26:00+09:00",
+        "distance_km": 15.1,
+        "avg_speed_kph": 34,
+        "energy_kwh": 3.49
+      },
+      {
+        "started_at": "2026-03-16T15:15:00+09:00",
+        "ended_at": "2026-03-16T16:00:00+09:00",
+        "distance_km": 35.9,
+        "avg_speed_kph": 48,
+        "energy_kwh": 7.4
+      },
+      {
+        "started_at": "2026-03-13T15:18:00+09:00",
+        "ended_at": "2026-03-13T15:40:00+09:00",
+        "distance_km": 14.6,
+        "avg_speed_kph": 40,
+        "energy_kwh": 3.25
+      },
+      {
+        "started_at": "2026-03-12T11:33:00+09:00",
+        "ended_at": "2026-03-12T12:02:00+09:00",
+        "distance_km": 32.4,
+        "avg_speed_kph": 67,
+        "energy_kwh": 6.98
+      },
+      {
+        "started_at": "2026-03-11T09:09:00+09:00",
+        "ended_at": "2026-03-11T09:48:00+09:00",
+        "distance_km": 44.0,
+        "avg_speed_kph": 68,
+        "energy_kwh": 8.42
+      }
+    ],
+    "VH-0028": [
+      {
+        "started_at": "2026-03-17T07:53:00+09:00",
+        "ended_at": "2026-03-17T08:49:00+09:00",
+        "distance_km": 46.9,
+        "avg_speed_kph": 50,
+        "energy_kwh": 10.45
+      },
+      {
+        "started_at": "2026-03-16T14:51:00+09:00",
+        "ended_at": "2026-03-16T15:12:00+09:00",
+        "distance_km": 10.2,
+        "avg_speed_kph": 29,
+        "energy_kwh": 2.13
+      },
+      {
+        "started_at": "2026-03-13T14:06:00+09:00",
+        "ended_at": "2026-03-13T14:49:00+09:00",
+        "distance_km": 27.5,
+        "avg_speed_kph": 38,
+        "energy_kwh": 6.52
+      },
+      {
+        "started_at": "2026-03-12T13:48:00+09:00",
+        "ended_at": "2026-03-12T14:21:00+09:00",
+        "distance_km": 25.6,
+        "avg_speed_kph": 47,
+        "energy_kwh": 4.94
+      },
+      {
+        "started_at": "2026-03-11T08:30:00+09:00",
+        "ended_at": "2026-03-11T08:45:00+09:00",
+        "distance_km": 15.7,
+        "avg_speed_kph": 63,
+        "energy_kwh": 3.07
+      }
+    ],
+    "VH-0029": [
+      {
+        "started_at": "2026-03-17T08:01:00+09:00",
+        "ended_at": "2026-03-17T08:34:00+09:00",
+        "distance_km": 32.4,
+        "avg_speed_kph": 59,
+        "energy_kwh": 5.59
+      },
+      {
+        "started_at": "2026-03-16T14:51:00+09:00",
+        "ended_at": "2026-03-16T15:48:00+09:00",
+        "distance_km": 37.2,
+        "avg_speed_kph": 39,
+        "energy_kwh": 8.31
+      },
+      {
+        "started_at": "2026-03-13T12:56:00+09:00",
+        "ended_at": "2026-03-13T13:42:00+09:00",
+        "distance_km": 41.3,
+        "avg_speed_kph": 54,
+        "energy_kwh": 7.62
+      },
+      {
+        "started_at": "2026-03-12T13:25:00+09:00",
+        "ended_at": "2026-03-12T13:51:00+09:00",
+        "distance_km": 15.6,
+        "avg_speed_kph": 36,
+        "energy_kwh": 3.31
+      },
+      {
+        "started_at": "2026-03-11T15:19:00+09:00",
+        "ended_at": "2026-03-11T15:35:00+09:00",
+        "distance_km": 16.3,
+        "avg_speed_kph": 61,
+        "energy_kwh": 2.97
+      }
+    ],
+    "VH-0030": [
+      {
+        "started_at": "2026-03-17T07:24:00+09:00",
+        "ended_at": "2026-03-17T08:41:00+09:00",
+        "distance_km": 59.2,
+        "avg_speed_kph": 46,
+        "energy_kwh": 12.35
+      },
+      {
+        "started_at": "2026-03-16T08:31:00+09:00",
+        "ended_at": "2026-03-16T08:54:00+09:00",
+        "distance_km": 23.4,
+        "avg_speed_kph": 61,
+        "energy_kwh": 4.73
+      },
+      {
+        "started_at": "2026-03-13T16:18:00+09:00",
+        "ended_at": "2026-03-13T17:27:00+09:00",
+        "distance_km": 65.5,
+        "avg_speed_kph": 57,
+        "energy_kwh": 13.37
+      },
+      {
+        "started_at": "2026-03-12T14:42:00+09:00",
+        "ended_at": "2026-03-12T15:30:00+09:00",
+        "distance_km": 28.8,
+        "avg_speed_kph": 36,
+        "energy_kwh": 5.57
+      },
+      {
+        "started_at": "2026-03-11T15:43:00+09:00",
+        "ended_at": "2026-03-11T16:11:00+09:00",
+        "distance_km": 15.4,
+        "avg_speed_kph": 33,
+        "energy_kwh": 3.59
+      }
+    ]
+  }
+}

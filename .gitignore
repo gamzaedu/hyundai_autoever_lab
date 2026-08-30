@@ -1,0 +1,77 @@
+# ─────────────────────────────────────────────
+# Node / Frontend (module_3/LAB_3_baseline 등)
+# ─────────────────────────────────────────────
+node_modules/
+dist/
+build/
+.vite/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# ─────────────────────────────────────────────
+# Python (module_5 review-target 등)
+# ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ─────────────────────────────────────────────
+# 환경변수 / 시크릿  (LAB_6 가드레일 훅 대상)
+# ─────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+credentials.json
+
+# ─────────────────────────────────────────────
+# Claude Code 로컬 산출물
+#  - settings.json : 개인 PC 절대경로 포함 → 커밋 금지
+#  - settings.example.json 은 교보재이므로 추적
+# ─────────────────────────────────────────────
+.claude/settings.json
+.claude/settings.local.json
+.claude/shell-snapshots/
+.claude/todos/
+.claude/statsig/
+.claude/projects/
+
+# 훅 실행 산출물 (교육생 PC 에서 생성)
+worklog.md
+session-stats.*
+hook-*.log
+
+# ─────────────────────────────────────────────
+# OS / Editor
+# ─────────────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+*~
+
+# ─────────────────────────────────────────────
+# 임시 / 백업
+# ─────────────────────────────────────────────
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig

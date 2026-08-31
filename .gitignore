@@ -3,6 +3,8 @@
 # ─────────────────────────────────────────────
 node_modules/
 dist/
+!guide/dist/
+!guide/dist/*.html
 build/
 .vite/
 *.tsbuildinfo

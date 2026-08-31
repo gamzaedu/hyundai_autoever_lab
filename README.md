@@ -26,6 +26,8 @@
 
 전체 운영 개요 → [GUIDE_0_overview.md](instructor/GUIDE_0_overview.md) · 설계 근거 → [LAB_EXERCISE_PLAN.md](instructor/LAB_EXERCISE_PLAN.md) · 원본 시간표 → [curriculum.md](instructor/curriculum.md)
 
+교육생 배포용 실습가이드북 → [guide/dist/claude-levelup-guide.html](guide/dist/claude-levelup-guide.html) (단일 HTML · 오프라인 동작)
+
 ---
 
 ## 하네스 5요소 — 이 교육이 가르치는 것
@@ -81,9 +83,18 @@ Hyundai_Autoever/
 │  ├─ QUEST_6.md · settings.example.json
 │  └─ hooks/                  _stdin.js + {A,B,C}_*.js (트랙별 스텁)
 │
-└─ module_7/  캡스톤
-   ├─ QUEST_7.md
-   └─ tracks/                 H1~H4 · M1~M3 (BRIEF.md + data/)
+├─ module_7/  캡스톤
+│  ├─ QUEST_7.md
+│  └─ tracks/                 H1~H4 · M1~M3 (BRIEF.md + data/)
+│
+├─ guide/                     교육생 배포용 실습가이드북 (단일 HTML)
+│  ├─ template.html           본문 · 스타일 · 진척도 스크립트
+│  ├─ build.py                에셋 인라인 빌더 (외부참조 0 검증 포함)
+│  ├─ requirements.txt        빌드 의존성 (fonttools · brotli · Pillow)
+│  ├─ assets/                 폰트(Gaegu) · 이미지(Clawd)
+│  └─ dist/                   claude-levelup-guide.html — 배포본
+│
+└─ assets/clawd/              Clawd 원본 에셋 + SOURCES.md (출처 · 라이선스)
 ```
 
 ---
@@ -117,6 +128,20 @@ mkdir -p .claude/hooks
 cp module_6/hooks/*.js            .claude/hooks/
 cp module_6/settings.example.json .claude/settings.json
 ```
+
+### 4. 실습가이드북 (교육생 배포본)
+
+배포본은 [guide/dist/claude-levelup-guide.html](guide/dist/claude-levelup-guide.html) 하나로 끝난다.
+**외부 참조 0개** — 폰트 · 이미지 · 스크립트가 전부 파일 안에 인라인되어 있어 오프라인 교육장에서 그대로 열린다.
+
+본문(`template.html`) 이나 에셋을 고쳤을 때만 재빌드한다.
+
+```bash
+python -m pip install -r guide/requirements.txt
+python guide/build.py          # → guide/dist/claude-levelup-guide.html (약 1.1MB)
+```
+
+> 빌드는 미치환 placeholder · 외부 `http(s)` 참조가 남아 있으면 **실패로 종료**한다.
 
 ---
 

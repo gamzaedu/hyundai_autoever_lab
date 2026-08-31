@@ -1,0 +1,4 @@
+# 실습가이드 HTML 빌드 의존성 —  python -m pip install -r guide/requirements.txt
+fonttools>=4.50        # 폰트 서브셋 (subset_font)
+brotli>=1.1            # woff2 인코딩 (fonttools flavor='woff2' 전제)
+Pillow>=10.0           # PNG/GIF 크기 측정 · 에셋 변환 (tools/make_assets.py)

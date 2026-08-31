@@ -6,6 +6,43 @@
     "alarm_total_count": 12,
     "critical_count": 7
   },
+  "dept_rollup_expected": [
+    {
+      "owner_dept": "ITS운영팀",
+      "vehicle_count": 6,
+      "utilization_pct": 50.0,
+      "ev_avg_soc_pct": 46.4,
+      "alarm_vehicle_count": 2
+    },
+    {
+      "owner_dept": "모빌리티서비스팀",
+      "vehicle_count": 6,
+      "utilization_pct": 50.0,
+      "ev_avg_soc_pct": 39.5,
+      "alarm_vehicle_count": 3
+    },
+    {
+      "owner_dept": "스마트팩토리팀",
+      "vehicle_count": 6,
+      "utilization_pct": 50.0,
+      "ev_avg_soc_pct": 28.7,
+      "alarm_vehicle_count": 1
+    },
+    {
+      "owner_dept": "차량인프라팀",
+      "vehicle_count": 6,
+      "utilization_pct": 83.3,
+      "ev_avg_soc_pct": 50.6,
+      "alarm_vehicle_count": 2
+    },
+    {
+      "owner_dept": "커넥티드카개발팀",
+      "vehicle_count": 6,
+      "utilization_pct": 50.0,
+      "ev_avg_soc_pct": 30.4,
+      "alarm_vehicle_count": 2
+    }
+  ],
   "cases": [
     {
       "vehicle_id": "VH-0002",

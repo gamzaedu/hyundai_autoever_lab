@@ -11,6 +11,15 @@ npm run dev
 
 → http://localhost:5173
 
+### 실행 스크립트 (자동)
+
+Node.js 확인 → 의존성 설치 → 개발 서버 실행까지 한 번에 처리합니다.
+
+| OS | 실행 방법 |
+| --- | --- |
+| Windows | `start-server.bat` 더블클릭 (또는 cmd 에서 `start-server.bat`) |
+| macOS / Linux | `chmod +x start-server.sh` (최초 1회) 후 `./start-server.sh` |
+
 ## 구현 범위
 
 | ID | 요구사항 | 상태 |

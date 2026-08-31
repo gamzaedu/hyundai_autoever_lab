@@ -93,6 +93,36 @@ duration·easing·animation·reduced-motion 동작은 캡처되지 않음. 모�
 - **자간(letter-spacing):** 관측된 `-0.4px`는 원 서체 메트릭에 종속된 값으로, 폰트 교체 시 근거 소멸. 적용값은 `normal`로 리셋한다. 크기·행간은 레이아웃 근거이므로 관측값 그대로 유지.
 - **weight 매핑:** Head 계열은 원 서체의 시각 두께를 맞추기 위해 관측 weight(400)보다 상향(500/600) 적용. Text 계열은 관측값 1:1 유지.
 
+### 🆕 폰트 설치 · 로드 (CDN 금지)
+
+Pretendard 는 **CDN(`fonts.googleapis.com`, `cdn.jsdelivr.net` 등)으로 불러오지 않는다.** npm 패키지로 설치해 번들에 포함한다.
+
+```bash
+npm install pretendard
+```
+
+프로젝트 진입 CSS(예: `src/index.css`) 최상단 또는 엔트리 모듈에서 로드한다.
+
+```css
+/* src/index.css 최상단 */
+@import "pretendard/dist/web/variable/pretendardvariable.css";
+
+:root {
+  font-family: "Pretendard Variable", Pretendard, -apple-system, system-ui, "Malgun Gothic", sans-serif;
+}
+```
+
+- 가변 폰트 대신 정적 weight 만 필요하면 `pretendard/dist/web/static/pretendard.css` 를 사용한다.
+- 실제 경로는 설치 후 `node_modules/pretendard/dist/web/` 아래에서 확인할 것.
+- 배포 시 SIL OFL 1.1 원문·저작권 고지를 동봉한다(§3 라이선스 항목).
+
+#### ❌ 금지
+
+```html
+<!-- CDN 링크 삽입 금지 -->
+<link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/..." rel="stylesheet" />
+```
+
 ### 관측된 위계
 
 | 역할 | 관측 패밀리 | 적용 패밀리 / weight | 크기 | 행간 | 자간 (관측 → 적용) | 화면 |
